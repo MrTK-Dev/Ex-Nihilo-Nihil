@@ -230,7 +230,7 @@
       ],
       "key": [
         "x",
-        "tag#forge:string",
+        "item#exnihilosequentia:mesh_string",
         "/",
         "item#minecraft:stick"
       ]
