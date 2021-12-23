@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "artisantools:sifter_wood",
+    "artisantools:sifter_stone",
+    "artisantools:sifter_iron",
+    "artisantools:sifter_diamond",
+    "artisantools:sifter_netherite",
+    "artisantools:sifter_flint",
+    "artisantools:sifter_bronze"
+  ]
+}

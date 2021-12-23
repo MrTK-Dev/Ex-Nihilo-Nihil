@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "artisantools:punch_wood",
+    "artisantools:punch_stone",
+    "artisantools:punch_iron",
+    "artisantools:punch_diamond",
+    "artisantools:punch_netherite",
+    "artisantools:punch_flint",
+    "artisantools:punch_bronze"
+  ]
+}

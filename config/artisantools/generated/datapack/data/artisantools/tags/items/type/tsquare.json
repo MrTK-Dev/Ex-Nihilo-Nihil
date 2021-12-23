@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "artisantools:tsquare_wood",
+    "artisantools:tsquare_stone",
+    "artisantools:tsquare_iron",
+    "artisantools:tsquare_diamond",
+    "artisantools:tsquare_netherite",
+    "artisantools:tsquare_flint",
+    "artisantools:tsquare_bronze"
+  ]
+}

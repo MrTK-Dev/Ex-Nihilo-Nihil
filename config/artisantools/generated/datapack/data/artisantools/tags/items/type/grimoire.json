@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "artisantools:grimoire_wood",
+    "artisantools:grimoire_stone",
+    "artisantools:grimoire_iron",
+    "artisantools:grimoire_diamond",
+    "artisantools:grimoire_netherite",
+    "artisantools:grimoire_flint",
+    "artisantools:grimoire_bronze"
+  ]
+}

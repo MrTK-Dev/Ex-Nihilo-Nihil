@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "artisantools:spanner_wood",
+    "artisantools:spanner_stone",
+    "artisantools:spanner_iron",
+    "artisantools:spanner_diamond",
+    "artisantools:spanner_netherite",
+    "artisantools:spanner_flint",
+    "artisantools:spanner_bronze"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "artisantools:quill_wood",
+    "artisantools:quill_stone",
+    "artisantools:quill_iron",
+    "artisantools:quill_diamond",
+    "artisantools:quill_netherite",
+    "artisantools:quill_flint",
+    "artisantools:quill_bronze"
+  ]
+}

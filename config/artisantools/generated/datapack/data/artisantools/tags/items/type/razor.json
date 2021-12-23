@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "artisantools:razor_wood",
+    "artisantools:razor_stone",
+    "artisantools:razor_iron",
+    "artisantools:razor_diamond",
+    "artisantools:razor_netherite",
+    "artisantools:razor_flint",
+    "artisantools:razor_bronze"
+  ]
+}

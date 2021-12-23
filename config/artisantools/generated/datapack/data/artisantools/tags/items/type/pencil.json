@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "artisantools:pencil_wood",
+    "artisantools:pencil_stone",
+    "artisantools:pencil_iron",
+    "artisantools:pencil_diamond",
+    "artisantools:pencil_netherite",
+    "artisantools:pencil_flint",
+    "artisantools:pencil_bronze"
+  ]
+}

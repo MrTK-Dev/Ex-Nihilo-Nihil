@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "artisantools:hatchet_wood",
+    "artisantools:hatchet_stone",
+    "artisantools:hatchet_iron",
+    "artisantools:hatchet_diamond",
+    "artisantools:hatchet_netherite",
+    "artisantools:hatchet_flint",
+    "artisantools:hatchet_bronze"
+  ]
+}

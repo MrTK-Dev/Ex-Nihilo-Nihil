@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "artisantools:driver_wood",
+    "artisantools:driver_stone",
+    "artisantools:driver_iron",
+    "artisantools:driver_diamond",
+    "artisantools:driver_netherite",
+    "artisantools:driver_flint",
+    "artisantools:driver_bronze"
+  ]
+}

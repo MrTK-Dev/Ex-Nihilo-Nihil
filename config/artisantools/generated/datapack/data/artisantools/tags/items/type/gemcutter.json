@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "artisantools:gemcutter_wood",
+    "artisantools:gemcutter_stone",
+    "artisantools:gemcutter_iron",
+    "artisantools:gemcutter_diamond",
+    "artisantools:gemcutter_netherite",
+    "artisantools:gemcutter_flint",
+    "artisantools:gemcutter_bronze"
+  ]
+}

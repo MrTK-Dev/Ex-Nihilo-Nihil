@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "artisantools:file_wood",
+    "artisantools:file_stone",
+    "artisantools:file_iron",
+    "artisantools:file_diamond",
+    "artisantools:file_netherite",
+    "artisantools:file_flint",
+    "artisantools:file_bronze"
+  ]
+}

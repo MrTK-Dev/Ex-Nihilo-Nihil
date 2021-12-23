@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "artisantools:chisel_wood",
+    "artisantools:chisel_stone",
+    "artisantools:chisel_iron",
+    "artisantools:chisel_diamond",
+    "artisantools:chisel_netherite",
+    "artisantools:chisel_flint",
+    "artisantools:chisel_bronze"
+  ]
+}

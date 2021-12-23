@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "artisantools:burner_wood",
+    "artisantools:burner_stone",
+    "artisantools:burner_iron",
+    "artisantools:burner_diamond",
+    "artisantools:burner_netherite",
+    "artisantools:burner_flint",
+    "artisantools:burner_bronze"
+  ]
+}

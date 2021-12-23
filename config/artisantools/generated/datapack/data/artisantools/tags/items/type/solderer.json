@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "artisantools:solderer_wood",
+    "artisantools:solderer_stone",
+    "artisantools:solderer_iron",
+    "artisantools:solderer_diamond",
+    "artisantools:solderer_netherite",
+    "artisantools:solderer_flint",
+    "artisantools:solderer_bronze"
+  ]
+}

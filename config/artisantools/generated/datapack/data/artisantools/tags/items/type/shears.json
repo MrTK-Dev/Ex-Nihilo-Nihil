@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "artisantools:shears_wood",
+    "artisantools:shears_stone",
+    "artisantools:shears_iron",
+    "artisantools:shears_diamond",
+    "artisantools:shears_netherite",
+    "artisantools:shears_flint",
+    "artisantools:shears_bronze"
+  ]
+}

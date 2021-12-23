@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "artisantools:paintbrush_wood",
+    "artisantools:paintbrush_stone",
+    "artisantools:paintbrush_iron",
+    "artisantools:paintbrush_diamond",
+    "artisantools:paintbrush_netherite",
+    "artisantools:paintbrush_flint",
+    "artisantools:paintbrush_bronze"
+  ]
+}

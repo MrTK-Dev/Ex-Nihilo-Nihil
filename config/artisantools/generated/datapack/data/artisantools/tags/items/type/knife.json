@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "artisantools:knife_wood",
+    "artisantools:knife_stone",
+    "artisantools:knife_iron",
+    "artisantools:knife_diamond",
+    "artisantools:knife_netherite",
+    "artisantools:knife_flint",
+    "artisantools:knife_bronze"
+  ]
+}

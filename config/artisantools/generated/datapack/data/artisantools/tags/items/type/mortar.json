@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "artisantools:mortar_wood",
+    "artisantools:mortar_stone",
+    "artisantools:mortar_iron",
+    "artisantools:mortar_diamond",
+    "artisantools:mortar_netherite",
+    "artisantools:mortar_flint",
+    "artisantools:mortar_bronze"
+  ]
+}

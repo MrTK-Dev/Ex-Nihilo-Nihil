@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "artisantools:beaker_wood",
+    "artisantools:beaker_stone",
+    "artisantools:beaker_iron",
+    "artisantools:beaker_diamond",
+    "artisantools:beaker_netherite",
+    "artisantools:beaker_flint",
+    "artisantools:beaker_bronze"
+  ]
+}

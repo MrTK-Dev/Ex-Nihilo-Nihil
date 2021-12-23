@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "artisantools:hammer_wood",
+    "artisantools:hammer_stone",
+    "artisantools:hammer_iron",
+    "artisantools:hammer_diamond",
+    "artisantools:hammer_netherite",
+    "artisantools:hammer_flint",
+    "artisantools:hammer_bronze"
+  ]
+}

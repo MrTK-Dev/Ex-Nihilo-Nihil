@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "artisantools:lens_wood",
+    "artisantools:lens_stone",
+    "artisantools:lens_iron",
+    "artisantools:lens_diamond",
+    "artisantools:lens_netherite",
+    "artisantools:lens_flint",
+    "artisantools:lens_bronze"
+  ]
+}

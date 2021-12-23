@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "artisantools:athame_wood",
+    "artisantools:athame_stone",
+    "artisantools:athame_iron",
+    "artisantools:athame_diamond",
+    "artisantools:athame_netherite",
+    "artisantools:athame_flint",
+    "artisantools:athame_bronze"
+  ]
+}

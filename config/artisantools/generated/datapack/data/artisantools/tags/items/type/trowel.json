@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "artisantools:trowel_wood",
+    "artisantools:trowel_stone",
+    "artisantools:trowel_iron",
+    "artisantools:trowel_diamond",
+    "artisantools:trowel_netherite",
+    "artisantools:trowel_flint",
+    "artisantools:trowel_bronze"
+  ]
+}

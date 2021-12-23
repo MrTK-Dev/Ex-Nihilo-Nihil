@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "artisantools:groover_wood",
+    "artisantools:groover_stone",
+    "artisantools:groover_iron",
+    "artisantools:groover_diamond",
+    "artisantools:groover_netherite",
+    "artisantools:groover_flint",
+    "artisantools:groover_bronze"
+  ]
+}
