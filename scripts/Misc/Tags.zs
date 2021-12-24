@@ -14,3 +14,5 @@ var new_pebbles as IItemStack[] = [
 for item in new_pebbles {
   <tag:items:crafttweaker:pebbel>.add(item);
 }
+
+<tag:items:forge:ingots/redstone>.add(<item:extendedcrafting:redstone_ingot>);

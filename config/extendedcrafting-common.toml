@@ -30,7 +30,7 @@
 #Settings for general things.
 [General]
 	#Should the Handheld Crafting Table be enabled?
-	handheldWorkbench = true
+	handheldWorkbench = false
 
 #Settings for the Extended Crafting Tables.
 ["Table Crafting"]
@@ -66,7 +66,7 @@
 	#Should the recipe maker add NBT tags when possible?
 	useNBT = true
 	#Should the recipe maker try to use tags when possible?
-	useTags = false
+	useTags = true
 	#Should the Recipe Maker be enabled?
 	enabled = true
 
