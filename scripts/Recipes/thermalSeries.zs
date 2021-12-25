@@ -8,6 +8,7 @@
 #|=======|Materials|=======|#
 
 craftingTable.removeByName("extendedcrafting:redstone_ingot");
+craftingTable.removeByName("mysticalagriculture:prosperity_ingot");
 
 #|=======|Crafting Components|=======|#
 
