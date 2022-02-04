@@ -48,13 +48,13 @@
 	[common.recipes]
 		#If set, coal blocks will be smeltable into graphite blocks.
 		#Disable this if other mods need to smelt coal blocks into their own products.
-		registerCoalBlockForSmelting = true
+		registerCoalBlockForSmelting = false
 		#If set, charcoal will be smeltable into graphite bars.
 		#Disable this if other mods need to smelt charcoal into their own products.
-		registerCharcoalForSmelting = true
+		registerCharcoalForSmelting = false
 		#If set, coal will be smeltable into graphite bars.
 		#Disable this if other mods need to smelt coal into their own products.
-		registerCoalForSmelting = true
+		registerCoalForSmelting = false
 
 	#Define how Fluidizer works
 	[common.fluidizer]

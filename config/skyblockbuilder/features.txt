@@ -52,6 +52,7 @@ minecraft:random_boolean_selector
 minecraft:decorated
 astralsorcery:replace_block
 astralsorcery:rock_crystal
+farmersdelight:rice
 botania:mystical_flowers
 botania:mystical_mushrooms
 mekanism:disk

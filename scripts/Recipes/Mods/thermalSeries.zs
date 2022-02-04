@@ -35,4 +35,14 @@
   [<item:thermal:machine_frame>, <tag:items:forge:treated_wood> * 4, <tag:items:forge:ingots/manasteel> * 2], 0.5, 20000
 );
 
-#|=======|Induction Smelter|=======|#
+#|=======|Pulverizer|=======|#
+
+// <recipetype:thermal:pulverizer>.addRecipe(String name, MCWeightedItemStack[] outputs,
+//   IIngredient ingredient, float experience, int energy
+// );
+
+#|=======|Centrifugal Separator|=======|#
+
+<recipetype:thermal:centrifuge>.addRecipe("soul_dust", [<item:mysticalagriculture:soul_dust> % 50, <item:mysticalagriculture:soulstone_cobble> % 25, <item:minecraft:sand> % 10],
+  <fluid:minecraft:empty>, <item:mysticalagriculture:soul_glass>, 4000
+);

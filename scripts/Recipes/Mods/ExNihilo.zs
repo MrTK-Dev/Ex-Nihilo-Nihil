@@ -19,4 +19,11 @@ import mods.exnihilosequentia.ZenSieveRecipe;
     .setInput(<item:minecraft:soul_sand>)
     .addDrop(<item:mysticalagriculture:prosperity_shard>)
     .addRoll("iron", 0.15)
-    .addRoll("diamond", 0.10);
+    .addRoll("diamond", 0.10)//;
+    .addDrop(<item:mysticalagriculture:soulium_dust>)
+    .addRoll("iron", 0.25);
+
+// <recipetype:exnihilosequentia:sieve>.create("soulium_dust")
+//     .setInput(<item:minecraft:soul_sand>)
+//     .addDrop(<item:mysticalagriculture:soulium_dust>)
+//     .addRoll("iron", 0.25);
