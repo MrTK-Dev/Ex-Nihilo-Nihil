@@ -17,3 +17,9 @@
 	#The base to use in Mekanism's Combiner to recreate ores.
 	ore_base = "#forge:cobblestone"
 
+[exnihilosequentia]
+	#Should dust sieve recipes be added.
+	sieveGravel = true
+	#Should soul sand sieve recipes be added.
+	sieveCrushedNetherrack = false
+

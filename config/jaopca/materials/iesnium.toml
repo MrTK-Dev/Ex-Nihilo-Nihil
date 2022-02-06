@@ -5,7 +5,7 @@
 	#The alternative names of this material.
 	alternativeNames = []
 	#The color of this material.
-	color = 5650738
+	color = 7120050
 	#The byproducts of this material.
 	extras = []
 	#The model type of the material.
@@ -20,4 +20,8 @@
 	sieveCrushedNetherrack = false
 	#Should crushed end stone sieve recipes be added.
 	sieveCrushedEndstone = false
+
+[mekanism]
+	#The base to use in Mekanism's Combiner to recreate ores.
+	ore_base = "#forge:cobblestone"
 
