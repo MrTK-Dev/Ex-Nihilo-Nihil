@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "masterfulmachinery:basic_controller"
+          "name": "masterfulmachinery:steam_boiler_controller"
         }
       ],
       "conditions": [

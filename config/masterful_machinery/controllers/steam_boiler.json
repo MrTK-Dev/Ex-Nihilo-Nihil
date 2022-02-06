@@ -1,6 +1,6 @@
 {
-  "controllerId": "basic",
-  "name": "Basic",
+  "controllerId": "steam_boiler",
+  "name": "Steam Boiler",
   "ports": [
     {
       "type": "masterfulmachinery:items",
@@ -8,7 +8,7 @@
       "id": "basic",
       "data": {
         "rows": 3,
-        "columns": 3
+        "columns": 1
       }
     },
     {

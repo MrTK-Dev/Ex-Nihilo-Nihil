@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "masterfulmachinery:basic_basic_port_fluids_output"
+          "name": "masterfulmachinery:steam_boiler_basic_port_fluids_input"
         }
       ],
       "conditions": [
