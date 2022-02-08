@@ -1,21 +1,17 @@
 
 [general]
-	#The module blacklist of this material.
-	moduleBlacklist = []
 	#The alternative names of this material.
 	alternativeNames = []
-	#The color of this material.
-	color = 2991282
 	#The byproducts of this material.
 	extras = []
-	#The model type of the material.
-	modelType = "dust"
+	#The module blacklist of this material.
+	moduleBlacklist = []
 	#Should items of this material have the enchanted glow.
 	hasEffect = false
-
-[molten]
-	#The temperature of this molten fluid.
-	temperature = 1000
+	#The model type of the material.
+	modelType = "crystal"
+	#The color of this material.
+	color = 3028542
 
 [exnihilosequentia]
 	#Should gravel sieve recipes be added.
