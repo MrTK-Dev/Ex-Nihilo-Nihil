@@ -13,3 +13,11 @@
 	#Should items of this material have the enchanted glow.
 	hasEffect = false
 
+[exnihilosequentia]
+	#Should gravel sieve recipes be added.
+	sieveGravel = true
+	#Should crushed netherrack sieve recipes be added.
+	sieveCrushedNetherrack = false
+	#Should crushed end stone sieve recipes be added.
+	sieveCrushedEndstone = false
+

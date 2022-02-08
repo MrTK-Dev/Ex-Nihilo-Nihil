@@ -71,3 +71,5 @@ appliedenergistics2:charged_quartz_ore
 immersiveengineering:mineral_vein
 immersiveengineering:ie_ore
 immersiveengineering:ore_retro
+nethers_delight:propelplant
+occultism:underground_grove

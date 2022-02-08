@@ -1,0 +1,31 @@
+{
+  "__comment": "Brass!",
+  "display": {
+      "title": {
+          "text": "If You Love Something Let It Go"
+      },
+      "description": {
+          "text": "Find a boomerang"
+      },
+      "icon": {
+          "item": "minecraft:clay"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+  },
+  "criteria": {
+      "invchange": {
+          "trigger": "minecraft:inventory_changed",
+          "conditions": {
+              "items": [
+                  {
+                      "item": "minecraft:stone"
+                  }
+              ]
+          }
+      }
+  },
+  "parent": "enn:root"
+}

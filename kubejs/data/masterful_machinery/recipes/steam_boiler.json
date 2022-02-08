@@ -1,0 +1,31 @@
+{
+  "type": "masterfulmachinery:machine_structure",
+  "id": "steam_boiler",
+  "controllerId": "steam_boiler",
+  "name": "Steam Boiler",
+  "layout": [
+    ["AAA", "AFA", "AAA"],
+    ["AEA", "FBO", "ACA"],
+    ["AAA", "ASA", "AAA"]
+  ],
+  "legend": {
+    "A": {
+      "block": "kubejs:modularium_casing"
+    },
+    "S": {
+      "block": "masterfulmachinery:steam_boiler_basic_port_energy_input"
+    },
+    "B": {
+      "block": "kubejs:modularium_heating_core"
+    },
+    "F": {
+      "block": "masterfulmachinery:steam_boiler_basic_port_fluids_input"
+    },
+    "E": {
+      "block": "masterfulmachinery:steam_boiler_basic_port_items_input"
+    },
+    "O": {
+      "block": "masterfulmachinery:steam_boiler_basic_port_fluids_output"
+    }
+  }
+}
