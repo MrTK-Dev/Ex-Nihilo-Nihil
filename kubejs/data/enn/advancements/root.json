@@ -1,0 +1,29 @@
+{
+	"display": {
+		"title": {
+			"text": "Ex Nihilo Nihil"
+		},
+		"description": {
+			"text": "The adventure begins!"
+		},
+		"icon": {
+			"item": "tconstruct:creative_slot"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false,
+		"background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+	},
+  "criteria": {
+    "any": {
+      "trigger": "minecraft:location",
+      "conditions": {}
+    }
+  },
+  "requirements": [
+    [
+      "any"
+    ]
+  ]
+}
