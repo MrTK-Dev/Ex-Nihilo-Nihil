@@ -46,35 +46,3 @@ craftingTable.addShaped("rf_coil", <item:thermal:rf_coil>, [
 	[<item:minecraft:air>, <tag:items:forge:gears/gold>, <item:minecraft:air>], 
 	[<tag:items:forge:ingots/redstone>, <item:minecraft:air>, <item:minecraft:air>]
 ]);
-
-#|=======|Devices|=======|#
-
-craftingTable.removeRecipe(<item:thermal:device_rock_gen>);
-craftingTable.addShaped("device_rock_gen", <item:thermal:device_rock_gen>, [
-	[<tag:items:forge:ingots/invar>, <tag:items:forge:gears/constantan>, <tag:items:forge:ingots/invar>], 
-	[<tag:items:forge:glass>, <item:minecraft:piston>, <tag:items:forge:glass>], 
-	[<tag:items:forge:ingots/invar>, <item:appliedenergistics2:nether_quartz_pickaxe>, <tag:items:forge:ingots/invar>]
-]);
-
-#|=======|Applied Energistics Phase I|=======|#
-
-craftingTable.removeRecipe(<item:appliedenergistics2:charger>);
-craftingTable.addShaped("charger", <item:appliedenergistics2:charger>, [
-	[<item:mysticalagriculture:prosperity_ingot>, <tag:items:appliedenergistics2:crystals/fluix>, <item:mysticalagriculture:prosperity_ingot>], 
-	[<item:mysticalagriculture:prosperity_ingot>, <item:minecraft:air>, <item:minecraft:air>], 
-	[<item:mysticalagriculture:prosperity_ingot>, <tag:items:appliedenergistics2:crystals/fluix>, <item:mysticalagriculture:prosperity_ingot>]
-]);
-
-craftingTable.removeByName("appliedenergistics2:network/parts/panels_semi_dark_monitor");
-craftingTable.addShaped("semi_dark_monitor", <item:appliedenergistics2:semi_dark_monitor> * 3, [
-	[<item:minecraft:air>, <tag:items:forge:dusts/lumium>, <item:appliedenergistics2:quartz_glass>], 
-	[<item:mysticalagriculture:prosperity_ingot>, <item:thermal:rf_coil>, <item:appliedenergistics2:quartz_glass>], 
-	[<item:minecraft:air>, <tag:items:forge:dusts/lumium>, <item:appliedenergistics2:quartz_glass>]
-]);
-
-craftingTable.removeByName("appliedenergistics2:network/blocks/energy_energy_acceptor");
-craftingTable.addShaped("energy_acceptor", <item:appliedenergistics2:energy_acceptor>, [
-	[<item:mysticalagriculture:prosperity_ingot>, <item:appliedenergistics2:quartz_glass>, <item:mysticalagriculture:prosperity_ingot>], 
-	[<item:appliedenergistics2:quartz_glass>, <tag:items:appliedenergistics2:crystals/fluix>, <item:appliedenergistics2:quartz_glass>], 
-	[<item:mysticalagriculture:prosperity_ingot>, <item:appliedenergistics2:quartz_glass>, <item:mysticalagriculture:prosperity_ingot>]
-]);

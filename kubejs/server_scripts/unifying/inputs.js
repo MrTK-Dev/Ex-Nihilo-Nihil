@@ -1,0 +1,1 @@
+// This script replaces all inputs to the preferred items.

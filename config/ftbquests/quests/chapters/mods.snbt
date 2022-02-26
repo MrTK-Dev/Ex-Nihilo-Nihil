@@ -1,0 +1,727 @@
+{
+	id: "2907494E8F45766B"
+	group: "7112E5EB95FBCA8D"
+	order_index: 1
+	filename: "mods"
+	title: "Mods"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Tinker's Construct"
+			x: -6.0d
+			y: -7.0d
+			dependencies: ["3189B137AD15EDA1"]
+			id: "25E180DBDD8D0413"
+			tasks: [{
+				id: "0D79E521DDA4E728"
+				type: "item"
+				item: "tconstruct:smeltery_controller"
+			}]
+		}
+		{
+			title: "Immersive Engineering"
+			x: -3.5d
+			y: -5.5d
+			dependencies: ["25E180DBDD8D0413"]
+			id: "33B89A246412BC83"
+			tasks: [{
+				id: "758F57F96AE6CD14"
+				type: "item"
+				item: {
+					id: "immersiveengineering:hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Blood Magic"
+			x: 1.5d
+			y: -8.5d
+			dependencies: ["7AB5D81E137C7D83"]
+			id: "0A6AD6357C7582CF"
+			tasks: [{
+				id: "21420D54C1C29AB0"
+				type: "item"
+				item: "bloodmagic:blankslate"
+			}]
+		}
+		{
+			title: "Eidolon"
+			x: -3.5d
+			y: -8.5d
+			dependencies: ["25E180DBDD8D0413"]
+			id: "698C3E861EFE39D9"
+			tasks: [{
+				id: "562B3E963406F803"
+				type: "item"
+				item: "eidolon:lesser_soul_gem"
+			}]
+		}
+		{
+			title: "Botania: Post-Terrasteel"
+			x: 6.5d
+			y: -8.5d
+			dependencies: ["21AA63ED5272DBCB"]
+			id: "412F5519BC84C015"
+			tasks: [{
+				id: "30C0532C34B4FDAE"
+				type: "item"
+				item: {
+					id: "botania:lexicon"
+					Count: 1b
+					tag: {
+						"botania:elven_unlock": 1b
+					}
+				}
+			}]
+		}
+		{
+			title: "Thermal Series"
+			x: -1.0d
+			y: -5.5d
+			dependencies: ["33B89A246412BC83"]
+			id: "1FA11A6A02607D07"
+			tasks: [{
+				id: "61E11FB937F6767F"
+				type: "item"
+				item: "thermal:wrench"
+			}]
+		}
+		{
+			title: "AE2: Storage"
+			x: 2.0d
+			y: -3.5d
+			dependencies: ["0E84E636AE26AC96"]
+			id: "0657F9EEE8CD3580"
+			tasks: [{
+				id: "571CBDA9CFF1DD45"
+				type: "item"
+				item: "appliedenergistics2:drive"
+			}]
+		}
+		{
+			title: "Pretty Pipes"
+			x: -3.0d
+			y: -3.5d
+			dependencies: ["33B89A246412BC83"]
+			id: "7975A1C7444ACA68"
+			tasks: [{
+				id: "3D5B764625098552"
+				type: "item"
+				item: "prettypipes:item_terminal"
+			}]
+		}
+		{
+			title: "Mekanism: Basics"
+			x: 1.5d
+			y: -5.5d
+			dependencies: ["1FA11A6A02607D07"]
+			id: "0E84E636AE26AC96"
+			tasks: [{
+				id: "030A0143BDBD2C5D"
+				type: "item"
+				item: "mekanism:ultimate_control_circuit"
+			}]
+		}
+		{
+			title: "Industrial Foregoing: Machinery"
+			x: 4.0d
+			y: -5.5d
+			dependencies: ["0E84E636AE26AC96"]
+			id: "5D53394B1A27A592"
+			tasks: [{
+				id: "7C6870C12B6771FA"
+				type: "item"
+				item: "industrialforegoing:plastic"
+			}]
+		}
+		{
+			title: "Reactors"
+			x: 2.0d
+			y: -10.5d
+			dependencies: ["0A6AD6357C7582CF"]
+			id: "6870429F6726CA67"
+			tasks: [{
+				id: "60F4C4BC44177B95"
+				type: "item"
+				item: "biggerreactors:yellorium_ingot"
+			}]
+		}
+		{
+			title: "Astral Sorcery"
+			x: 9.0d
+			y: -8.5d
+			dependencies: ["412F5519BC84C015"]
+			id: "4C10B49E7F940B07"
+			tasks: [{
+				id: "27DC76E32D53E977"
+				type: "item"
+				item: "astralsorcery:shifting_star"
+			}]
+		}
+		{
+			title: "Hostile Networks"
+			x: 6.5d
+			y: -10.5d
+			dependencies: ["412F5519BC84C015"]
+			id: "39F941E469769737"
+			tasks: [{
+				id: "72A403A387456FA7"
+				type: "item"
+				item: "hostilenetworks:sim_chamber"
+			}]
+		}
+		{
+			title: "Draconic Evolution"
+			x: 9.0d
+			y: -5.5d
+			dependencies: ["1726903C8FD1BF41"]
+			id: "464839D2E1E08AB6"
+			tasks: [{
+				id: "5F699425910D80A6"
+				type: "item"
+				item: "draconicevolution:draconium_core"
+			}]
+		}
+		{
+			title: "Powah"
+			x: -0.5d
+			y: -3.5d
+			dependencies: ["1FA11A6A02607D07"]
+			id: "01330E7406A02D1C"
+			tasks: [{
+				id: "4C7FB7C383AF38B0"
+				type: "item"
+				item: {
+					id: "powah:wrench"
+					Count: 1b
+					tag: {
+						PowahWrenchNBT: { }
+					}
+				}
+			}]
+		}
+		{
+			title: "Occultism"
+			x: -1.5d
+			y: -10.5d
+			dependencies: ["7AB5D81E137C7D83"]
+			id: "6ADB3EC4609DD503"
+			tasks: [{
+				id: "30442014AD43D67E"
+				type: "item"
+				item: "occultism:spirit_attuned_gem"
+			}]
+		}
+		{
+			title: "AE2: Auto-Crafting"
+			x: 4.0d
+			y: -3.5d
+			dependencies: ["5D53394B1A27A592"]
+			id: "258A6406BB7FC6A9"
+			tasks: [{
+				id: "582F08C750EF3B14"
+				type: "item"
+				item: "appliedenergistics2:molecular_assembler"
+			}]
+		}
+		{
+			title: "Extended Crafting"
+			x: 11.5d
+			y: -7.0d
+			dependencies: [
+				"4C10B49E7F940B07"
+				"464839D2E1E08AB6"
+			]
+			id: "26662F2FDAF94318"
+			tasks: [{
+				id: "201F4736ADE906E0"
+				type: "item"
+				item: "extendedcrafting:ultimate_table"
+			}]
+		}
+		{
+			title: "Creative Items"
+			x: 13.5d
+			y: -7.0d
+			dependencies: ["26662F2FDAF94318"]
+			id: "33E1B6E1AD5970F5"
+			tasks: [{
+				id: "11982835585331C4"
+				type: "item"
+				item: "mysticalagradditions:creative_essence"
+			}]
+		}
+		{
+			title: "Botania: Basics"
+			x: -1.0d
+			y: -8.5d
+			dependencies: ["698C3E861EFE39D9"]
+			id: "7AB5D81E137C7D83"
+			tasks: [{
+				id: "50F4D569B9D861DC"
+				type: "item"
+				item: "botania:pure_daisy"
+			}]
+		}
+		{
+			title: "Mekanism: Endgame"
+			x: 6.5d
+			y: -5.5d
+			dependencies: ["5D53394B1A27A592"]
+			id: "1726903C8FD1BF41"
+			tasks: [{
+				id: "342891EF8BF00B1D"
+				type: "item"
+				item: "mekanism:pellet_antimatter"
+			}]
+		}
+		{
+			title: "Ex Nihilo"
+			x: -8.0d
+			y: -7.0d
+			id: "3189B137AD15EDA1"
+			tasks: [{
+				id: "7639D442AEC2CFF2"
+				type: "item"
+				item: "exnihilosequentia:sieve"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 1.0d
+			shape: "gear"
+			id: "78F783FC56155809"
+			tasks: [{
+				id: "732A259E5C150EEA"
+				type: "item"
+				item: "mysticalagriculture:inferium_essence"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.0d
+			shape: "gear"
+			dependencies: ["78F783FC56155809"]
+			id: "04912301E1F99611"
+			tasks: [{
+				id: "65D916E9BA64770A"
+				type: "item"
+				item: "mysticalagriculture:prudentium_essence"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.0d
+			shape: "gear"
+			dependencies: ["04912301E1F99611"]
+			id: "13BDA5D14C865F78"
+			tasks: [{
+				id: "329BB4037712A0C4"
+				type: "item"
+				item: "mysticalagriculture:tertium_essence"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.0d
+			shape: "gear"
+			dependencies: ["13BDA5D14C865F78"]
+			id: "017287E94E774B4D"
+			tasks: [{
+				id: "0B2E4590292E04A6"
+				type: "item"
+				item: "mysticalagriculture:imperium_essence"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 1.0d
+			shape: "gear"
+			dependencies: ["017287E94E774B4D"]
+			id: "26EDE893C4375831"
+			tasks: [{
+				id: "5FA524D5C97C31D5"
+				type: "item"
+				item: "mysticalagriculture:supremium_essence"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 1.0d
+			shape: "gear"
+			dependencies: ["26EDE893C4375831"]
+			id: "6E3A4B1C0970279E"
+			tasks: [{
+				id: "14856F29AEF17DEE"
+				type: "item"
+				item: "mysticalagradditions:insanium_essence"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -8.5d
+			dependencies: ["0A6AD6357C7582CF"]
+			id: "21AA63ED5272DBCB"
+			tasks: [{
+				id: "4356EBE9A4214E17"
+				type: "item"
+				item: "witchery_rewitched:witch_oven"
+			}]
+		}
+		{
+			title: "PackagedAuto"
+			x: 9.0d
+			y: -3.5d
+			dependencies: ["464839D2E1E08AB6"]
+			id: "087E1B3E112F2B4D"
+			tasks: [{
+				id: "03ACDC675641E6B4"
+				type: "item"
+				item: "packagedauto:recipe_holder"
+			}]
+		}
+		{
+			title: "LazierAE2"
+			x: 6.0d
+			y: -3.5d
+			dependencies: ["1726903C8FD1BF41"]
+			id: "4415B04C05A9B7B5"
+			tasks: [{
+				id: "1918BE9245CE9D27"
+				type: "item"
+				item: "lazierae2:parallel_processor"
+			}]
+		}
+		{
+			title: "Storage Drawers"
+			x: -6.0d
+			y: -5.5d
+			dependencies: ["25E180DBDD8D0413"]
+			id: "63B7B703BC121FFA"
+			tasks: [{
+				id: "039408C169B2860A"
+				type: "item"
+				item: "storagedrawers:oak_full_drawers_1"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -10.5d
+			dependencies: ["21AA63ED5272DBCB"]
+			id: "059D80C292CFB924"
+			tasks: [{
+				id: "18DE94F8785C8D8A"
+				type: "item"
+				item: "enderstorage:ender_chest"
+			}]
+		}
+		{
+			title: "Industrial Foregoing: Supreme"
+			x: 7.0d
+			y: -3.5d
+			dependencies: ["1726903C8FD1BF41"]
+			id: "04C06959FFBEF797"
+			tasks: [{
+				id: "2D96A8A55DC0FE37"
+				type: "item"
+				item: "industrialforegoing:machine_frame_supreme"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -10.5d
+			dependencies: ["7AB5D81E137C7D83"]
+			id: "0ECD96F44E500D16"
+			tasks: [{
+				id: "05551715A57D8E2C"
+				type: "item"
+				item: {
+					id: "tiab:timeinabottle"
+					Count: 1b
+					tag: {
+						timeData: { }
+					}
+				}
+			}]
+		}
+		{
+			title: "Redstone Arsenal"
+			x: 1.0d
+			y: -3.5d
+			dependencies: ["0E84E636AE26AC96"]
+			id: "1CA3CBC395A1ED29"
+			tasks: [{
+				id: "4A21A7CDB55AFC8E"
+				type: "item"
+				item: {
+					id: "redstone_arsenal:flux_hammer"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "More Red"
+			x: -4.0d
+			y: -3.5d
+			dependencies: ["33B89A246412BC83"]
+			id: "5D9758FED4132F93"
+			tasks: [{
+				id: "0280ABF36E651299"
+				type: "item"
+				item: "morered:and_gate"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -1.0d
+			dependencies: ["78F783FC56155809"]
+			id: "2B3ED28611EF9F48"
+			tasks: [{
+				id: "68D65F598F805D83"
+				type: "item"
+				item: "dankstorage:dank_1"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -1.0d
+			dependencies: [
+				"04912301E1F99611"
+				"2B3ED28611EF9F48"
+			]
+			id: "5306B80276D03A4A"
+			tasks: [{
+				id: "5008EAA11D57B0FE"
+				type: "item"
+				item: "dankstorage:dank_2"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.0d
+			dependencies: [
+				"13BDA5D14C865F78"
+				"5306B80276D03A4A"
+			]
+			id: "4593EA841D46FF34"
+			tasks: [{
+				id: "1E4BF77B76DA2306"
+				type: "item"
+				item: "dankstorage:dank_3"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.0d
+			dependencies: [
+				"017287E94E774B4D"
+				"4593EA841D46FF34"
+			]
+			id: "504505E81A419CD5"
+			tasks: [{
+				id: "72A7B3201769F40D"
+				type: "item"
+				item: "dankstorage:dank_4"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -1.0d
+			dependencies: [
+				"26EDE893C4375831"
+				"504505E81A419CD5"
+			]
+			id: "7AB4A057D4E1B657"
+			tasks: [{
+				id: "69B357180237349E"
+				type: "item"
+				item: "dankstorage:dank_5"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -1.0d
+			dependencies: [
+				"6E3A4B1C0970279E"
+				"7AB4A057D4E1B657"
+			]
+			id: "3701CFEB2C2DCBE6"
+			tasks: [{
+				id: "38152AABC2C3CE60"
+				type: "item"
+				item: "dankstorage:dank_6"
+			}]
+		}
+		{
+			x: 11.5d
+			y: -1.0d
+			dependencies: ["3701CFEB2C2DCBE6"]
+			id: "76C8243B7AEA3429"
+			tasks: [{
+				id: "66589D22993581AA"
+				type: "item"
+				item: "dankstorage:dank_7"
+			}]
+		}
+		{
+			title: "Farmers Delight"
+			x: -3.0d
+			y: -10.5d
+			dependencies: ["698C3E861EFE39D9"]
+			id: "1F032FB8C8C49613"
+			tasks: [{
+				id: "5440EC60CDDE093A"
+				type: "item"
+				item: "farmersdelight:stove"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -3.5d
+			dependencies: ["1FA11A6A02607D07"]
+			id: "33304181A95DB30E"
+			tasks: [{
+				id: "55668C309AF5790C"
+				type: "item"
+				item: "energymeter:meter"
+			}]
+		}
+		{
+			title: "Trash Cans"
+			x: -4.0d
+			y: -10.5d
+			dependencies: ["698C3E861EFE39D9"]
+			id: "337377FA43E0C2C3"
+			tasks: [{
+				id: "474068B349CDEE0B"
+				type: "item"
+				item: "trashcans:item_trash_can"
+			}]
+		}
+		{
+			title: "Entangled"
+			x: 3.5d
+			y: -10.5d
+			dependencies: ["21AA63ED5272DBCB"]
+			id: "1CD0B344C479B5DC"
+			tasks: [{
+				id: "00EB2528611B3066"
+				type: "item"
+				item: {
+					id: "entangled:item"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: -10.5d
+			dependencies: ["0A6AD6357C7582CF"]
+			id: "0B78C1C7720D26D9"
+			tasks: [{
+				id: "18E2DEE6A5B22CBF"
+				type: "item"
+				item: "storagedrawers:compacting_drawers_3"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -10.5d
+			dependencies: ["4C10B49E7F940B07"]
+			id: "29DD9EC756DC43AB"
+			tasks: [{
+				id: "5256C5FC15502029"
+				type: "item"
+				item: "miniutilities:angel_ring"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 3.0d
+			dependencies: ["78F783FC56155809"]
+			id: "29248EF64DF2DA78"
+			tasks: [{
+				id: "4BE7291507E322DC"
+				type: "item"
+				item: "compactmachines:machine_tiny"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 3.0d
+			dependencies: [
+				"04912301E1F99611"
+				"29248EF64DF2DA78"
+			]
+			id: "4A21ED96C7E14039"
+			tasks: [{
+				id: "45BA2CB6F557EBF9"
+				type: "item"
+				item: "compactmachines:machine_small"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 3.0d
+			dependencies: [
+				"13BDA5D14C865F78"
+				"4A21ED96C7E14039"
+			]
+			id: "79D8CC305DAD6788"
+			tasks: [{
+				id: "0CD8D3A243D9B856"
+				type: "item"
+				item: "compactmachines:machine_normal"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 3.0d
+			dependencies: [
+				"017287E94E774B4D"
+				"79D8CC305DAD6788"
+			]
+			id: "62CA1088AE4B9B7B"
+			tasks: [{
+				id: "20F3D27693F45D54"
+				type: "item"
+				item: "compactmachines:machine_large"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 3.0d
+			dependencies: [
+				"26EDE893C4375831"
+				"62CA1088AE4B9B7B"
+			]
+			id: "546014BCDB7B293D"
+			tasks: [{
+				id: "696D75871B1D83C7"
+				type: "item"
+				item: "compactmachines:machine_giant"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 3.0d
+			dependencies: [
+				"6E3A4B1C0970279E"
+				"546014BCDB7B293D"
+			]
+			id: "5ACF7029A7065F5B"
+			tasks: [{
+				id: "5552965D16644E90"
+				type: "item"
+				item: "compactmachines:machine_maximum"
+			}]
+		}
+	]
+}
