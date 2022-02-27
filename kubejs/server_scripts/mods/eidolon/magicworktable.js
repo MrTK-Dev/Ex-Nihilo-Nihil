@@ -30,7 +30,7 @@ onEvent('recipes', e => {
       'trashcans:item_trash_can'
     ],
     [
-      'fluid_trash_can',
+      'liquid_trash_can',
       ["ABA", "CDC", "CCC"],
       ["    "],
       {
@@ -39,7 +39,7 @@ onEvent('recipes', e => {
         C: { tag: 'forge:cobblestone' },
         D: { item: 'minecraft:bucket' }
       },
-      'trashcans:fluid_trash_can'
+      'trashcans:liquid_trash_can'
     ],
     [
       'energy_trash_can',
@@ -58,13 +58,75 @@ onEvent('recipes', e => {
       ["A A", "A A", "AAA"],
       ["BCDE"],
       {
-        A: { tag: 'forge:stone' },
+        A: { tag: 'forge:ingots/pewter'},
         B: { tag: 'forge:gems/diamond' },
         C: { tag: 'forge:gems/fluorite' },
         D: { tag: 'forge:gems/niter' },
         E: { tag: 'forge:gems/sulfur' }
       },
       'eidolon:crucible'
+    ],
+    [
+      'stove',
+      ["AAA", "B B", "BCB"],
+      ["DDDD"],
+      {
+        A: { tag: 'forge:ingots/arcane_gold'},
+        B: { item: 'minecraft:bricks' },
+        C: { item: 'minecraft:campfire' },
+        D: { item: 'eidolon:enchanted_ash' }
+      },
+      'farmersdelight:stove'
+    ],
+    [
+      'blackstone_stove',
+      ["AAA", "B B", "BCB"],
+      ["DDDD"],
+      {
+        A: { tag: 'forge:ingots/arcane_gold'},
+        B: { item: 'minecraft:polished_blackstone_bricks' },
+        C: { item: 'minecraft:campfire' },
+        D: { item: 'eidolon:enchanted_ash' }
+      },
+      'nethers_delight:blackstone_stove'
+    ],
+    [
+      'cooking_pot',
+      ["ABA", "CDC", "CCC"],
+      ["EEEE"],
+      {
+        A: { tag: 'forge:ingots/brick'},
+        B: { item: 'minecraft:cauldron' },
+        C: { tag: 'forge:ingots/pewter' },
+        D: { item: 'minecraft:water_bucket' },
+        E: { item: 'eidolon:enchanted_ash' }
+      },
+      'farmersdelight:cooking_pot'
+    ],
+    [
+      'skillet',
+      [" AB", " AA", "C  "],
+      ["DDDD"],
+      {
+        A: { tag: 'forge:ingots/pewter' },
+        B: { item: 'artisantools:pan_flint' },
+        C: { tag: 'forge:ingots/brick'},
+        D: { item: 'eidolon:enchanted_ash' }
+      },
+      'farmersdelight:skillet'
+    ],
+    [
+      'crafting_terminal',
+      ["ABA", "CDC", "ACA"],
+      ["EEEE"],
+      {
+        A: { item: 'extendedcrafting:redstone_nugget' },
+        B: { item: 'sophisticatedbackpacks:crafting_upgrade' },
+        C: { tag: 'forge:gears/silver'},
+        D: { item: 'prettypipes:item_terminal' },
+        E: { tag: 'forge:inlays/arcane_gold'}
+      },
+      'prettypipes:crafting_terminal'
     ]
   ])
 })

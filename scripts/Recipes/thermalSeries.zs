@@ -19,19 +19,19 @@ craftingTable.addShaped("piston", <item:minecraft:piston>, [
 	[<tag:items:forge:cobblestone>, <tag:items:forge:dusts/redstone>, <tag:items:forge:cobblestone>]
 ]);
 
-craftingTable.removeRecipe(<item:glassential:glass_redstone>);
-craftingTable.addShaped("glass_redstone", <item:glassential:glass_redstone> * 8, [
-	[<tag:items:forge:glass/colorless>, <tag:items:forge:glass/colorless>, <tag:items:forge:glass/colorless>], 
-	[<tag:items:forge:glass/colorless>, <tag:items:forge:ingots/redstone>, <tag:items:forge:glass/colorless>], 
-	[<tag:items:forge:glass/colorless>, <tag:items:forge:glass/colorless>, <tag:items:forge:glass/colorless>]
-]);
+// craftingTable.removeRecipe(<item:glassential:glass_redstone>);
+// craftingTable.addShaped("glass_redstone", <item:glassential:glass_redstone> * 8, [
+// 	[<tag:items:forge:glass/colorless>, <tag:items:forge:glass/colorless>, <tag:items:forge:glass/colorless>], 
+// 	[<tag:items:forge:glass/colorless>, <tag:items:forge:ingots/redstone>, <tag:items:forge:glass/colorless>], 
+// 	[<tag:items:forge:glass/colorless>, <tag:items:forge:glass/colorless>, <tag:items:forge:glass/colorless>]
+// ]);
 
-craftingTable.removeRecipe(<item:thermal:machine_frame>);
-craftingTable.addShaped("machine_frame", <item:thermal:machine_frame>, [
-	[<item:tconstruct:seared_brick>, <item:glassential:glass_redstone>, <item:tconstruct:seared_brick>], 
-	[<item:glassential:glass_redstone>, <tag:items:forge:gears/tin>, <item:glassential:glass_redstone>], 
-	[<item:tconstruct:seared_brick>, <tag:items:forge:plates/iron>, <item:tconstruct:seared_brick>]
-]);
+// craftingTable.removeRecipe(<item:thermal:machine_frame>);
+// craftingTable.addShaped("machine_frame", <item:thermal:machine_frame>, [
+// 	[<item:tconstruct:seared_brick>, <item:glassential:glass_redstone>, <item:tconstruct:seared_brick>], 
+// 	[<item:glassential:glass_redstone>, <tag:items:forge:gears/tin>, <item:glassential:glass_redstone>], 
+// 	[<item:tconstruct:seared_brick>, <tag:items:forge:plates/iron>, <item:tconstruct:seared_brick>]
+// ]);
 
 craftingTable.removeRecipe(<item:thermal:redstone_servo>);
 craftingTable.addShaped("redstone_servo", <item:thermal:redstone_servo>, [

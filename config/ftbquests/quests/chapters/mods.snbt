@@ -4,6 +4,16 @@
 	order_index: 1
 	filename: "mods"
 	title: "Mods"
+	icon: {
+		id: "solpotato:golden_lunchbox"
+		Count: 1b
+		ForgeCaps: {
+			Parent: {
+				Size: 14
+				Items: [ ]
+			}
+		}
+	}
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -219,7 +229,7 @@
 		}
 		{
 			title: "AE2: Auto-Crafting"
-			x: 4.0d
+			x: 4.5d
 			y: -3.5d
 			dependencies: ["5D53394B1A27A592"]
 			id: "258A6406BB7FC6A9"
@@ -466,18 +476,6 @@
 			}]
 		}
 		{
-			title: "More Red"
-			x: -4.0d
-			y: -3.5d
-			dependencies: ["33B89A246412BC83"]
-			id: "5D9758FED4132F93"
-			tasks: [{
-				id: "0280ABF36E651299"
-				type: "item"
-				item: "morered:and_gate"
-			}]
-		}
-		{
 			x: -3.5d
 			y: -1.0d
 			dependencies: ["78F783FC56155809"]
@@ -721,6 +719,42 @@
 				id: "5552965D16644E90"
 				type: "item"
 				item: "compactmachines:machine_maximum"
+			}]
+		}
+		{
+			title: "RFTools: Utilities"
+			x: -4.0d
+			y: -3.5d
+			dependencies: ["33B89A246412BC83"]
+			id: "07B58F7B017F9586"
+			tasks: [{
+				id: "7D70D0CB27F6E3B6"
+				type: "item"
+				item: "rftoolsutility:logic"
+			}]
+		}
+		{
+			title: "RFTools: Machines"
+			x: 3.5d
+			y: -3.5d
+			dependencies: ["5D53394B1A27A592"]
+			id: "797FB49C144BE86B"
+			tasks: [{
+				id: "2CF4860FD1723F26"
+				type: "item"
+				item: "rftoolsutility:matter_receiver"
+			}]
+		}
+		{
+			title: "Sophisticated Backpacks"
+			x: -6.0d
+			y: -8.5d
+			dependencies: ["25E180DBDD8D0413"]
+			id: "2E10DA32FA3C0BD6"
+			tasks: [{
+				id: "6D821A774AC72465"
+				type: "item"
+				item: "sophisticatedbackpacks:backpack"
 			}]
 		}
 	]

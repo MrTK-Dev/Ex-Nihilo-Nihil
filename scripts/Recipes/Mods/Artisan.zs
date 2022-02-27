@@ -37,13 +37,3 @@ Recipe.type(Type.POTTER)
   .register("porcelain_clay");
 
 #|=======|Blacksmith|=======|#
-
-Recipe.type(Type.POTTER)
-  .shaped([
-    [<item:minecraft:air>, <tag:items:forge:ingots/iron>, <item:immersiveengineering:hemp_fiber>], 
-    [<item:minecraft:air>, <tag:items:forge:rods/wooden>, <tag:items:forge:ingots/iron>], 
-    [<tag:items:forge:rods/wooden>, <item:minecraft:air>, <item:minecraft:air>]
-  ])
-  .output(<item:immersiveengineering:hammer>)
-  .tool(<tag:items:artisantools:type/hammer>, 5)
-  .register("immersiveengineering_hammer");

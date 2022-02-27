@@ -1,13 +1,13 @@
 // All recipes related to the vanilla furnace
 
-onEvent('recipes', event => {
+onEvent('recipes', e => {
   function disable(entries){
     entries.forEach(([item]) => {
-      event.remove({input: item, type: 'minecraft:smelting'})
+      e.remove({output: item, type: 'minecraft:smelting'})
     })
   }
 
   disable([
-    'eidolon:pewter_blend'
+    'eidolon:pewter_ingot'
   ])
 })

@@ -21,3 +21,9 @@ let removeRecipeByID = (e, ids) => {
       e.remove({ id: ID })  
   })
 }
+
+let removeRecipeByOutput = (e, outputs) => {
+  outputs.forEach(ID => {
+      e.remove({ output: ID })  
+  })
+}

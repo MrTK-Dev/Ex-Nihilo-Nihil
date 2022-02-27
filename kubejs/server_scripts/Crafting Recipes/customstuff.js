@@ -1,7 +1,7 @@
 onEvent('recipes', event => {
 		//Screen
 	event.shaped('kubejs:screen', ['ABA', 'CCC', 'DEF'], {
-		A: '#forge:quarter_slabs/smooth_stone',
+		A: 'minecraft:smooth_stone_slab',
 		B: 'bloodmagic:blankslate',
     C: '#forge:glass_panes',
     D: '#forge:dusts/redstone',
