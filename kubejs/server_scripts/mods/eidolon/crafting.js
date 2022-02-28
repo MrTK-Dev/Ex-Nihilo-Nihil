@@ -19,7 +19,8 @@ onEvent('recipes', e => {
     'eidolon:crucible',
     'eidolon:brazier',
     'eidolon:blast_pewter_blend',
-    'eidolon:smelt_pewter_blend'
+    'eidolon:smelt_pewter_blend',
+    'materialis:smeltery/melting/metal/pewter_blend'
     ]
   )
 

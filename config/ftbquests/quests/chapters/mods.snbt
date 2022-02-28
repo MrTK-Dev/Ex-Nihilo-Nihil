@@ -1,7 +1,7 @@
 {
 	id: "2907494E8F45766B"
 	group: "7112E5EB95FBCA8D"
-	order_index: 1
+	order_index: 0
 	filename: "mods"
 	title: "Mods"
 	icon: {
@@ -373,6 +373,7 @@
 			}]
 		}
 		{
+			title: "Witchery"
 			x: 4.0d
 			y: -8.5d
 			dependencies: ["0A6AD6357C7582CF"]
@@ -397,7 +398,7 @@
 		}
 		{
 			title: "LazierAE2"
-			x: 6.0d
+			x: 7.0d
 			y: -3.5d
 			dependencies: ["1726903C8FD1BF41"]
 			id: "4415B04C05A9B7B5"
@@ -432,7 +433,7 @@
 		}
 		{
 			title: "Industrial Foregoing: Supreme"
-			x: 7.0d
+			x: 6.0d
 			y: -3.5d
 			dependencies: ["1726903C8FD1BF41"]
 			id: "04C06959FFBEF797"
@@ -755,6 +756,17 @@
 				id: "6D821A774AC72465"
 				type: "item"
 				item: "sophisticatedbackpacks:backpack"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -6.5d
+			dependencies: ["1FA11A6A02607D07"]
+			id: "5B3ACCAA866F5349"
+			tasks: [{
+				id: "37757849B5E50FF2"
+				type: "item"
+				item: "storagedrawers:controller"
 			}]
 		}
 	]

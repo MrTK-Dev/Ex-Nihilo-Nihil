@@ -2,7 +2,7 @@
 
 onEvent('recipes', e => {
   e.shaped('rftoolsbase:machine_base', ['AAA', 'BBB'], {
-		A: '#forge:nuggets/electrum',
+		A: 'mysticalagriculture:inferium_nugget',
     B: 'immersiveengineering:slab_storage_steel'
 	}).id(`${_dys}:rftools/machine_base`)
 

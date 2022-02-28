@@ -19,10 +19,15 @@ onEvent('recipes', e => {
       'eidolon:pewter_ingot',
       ['#forge:ingots/iron', '#forge:ingots/lead']
     ],
-    [
+    [//make cool loop
       'inferium_ingot',
       'mysticalagriculture:inferium_ingot',
       ['mysticalagriculture:prosperity_ingot', Ingredient.of('mysticalagriculture:inferium_essence', 4)]
+    ],
+    [
+      'prudentium_ingot',
+      'mysticalagriculture:prudentium_ingot',
+      ['mysticalagriculture:inferium_ingot', Ingredient.of('mysticalagriculture:prudentium_essence', 4)]
     ]
   ])
 })
