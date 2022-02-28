@@ -127,6 +127,18 @@ onEvent('recipes', e => {
         E: { tag: 'forge:inlays/arcane_gold'}
       },
       'prettypipes:crafting_terminal'
+    ],
+    [
+      'diluted_pool',
+      ["   ", "ABA", "AAA"],
+      ["CDDD"],
+      {
+        A: { item: 'botania:livingrock_slab' },
+        B: { item: 'eidolon:lesser_soul_gem' },
+        C: { item: 'mysticalagriculture:prudentium_ingot'},
+        D: { tag: '#forge:plates/silver' }
+      },
+      'botania:diluted_pool'
     ]
   ])
 })

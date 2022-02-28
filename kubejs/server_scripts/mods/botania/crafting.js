@@ -10,9 +10,17 @@ onEvent('recipes', e => {
     F: 'tconstruct:scorched_fuel_tank'
 	}).id(`${_dys}:botania/petal_apothecary`)
 
+  e.shaped('botania:mana_pool', ['ABA', 'CCC'], {
+		A: 'botania:diluted_pool',
+		B: '#forge:storage_blocks/slimesteel',
+    C: 'botania:livingrock_slab'
+	}).id(`${_dys}:botania/petal_apothecary`)
 
-
-
-
-  e.remove({output: 'botania:apothecary_default'})
+  removeRecipeByID(e, [
+    'botania:apothecary_default',
+    'botania:diluted_pool',
+    'botania:mana_pool',
+    'botania:fabulous_pool'
+    ]
+  )
 })
