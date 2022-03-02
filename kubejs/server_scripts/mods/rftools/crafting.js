@@ -6,7 +6,7 @@ onEvent('recipes', e => {
     B: 'immersiveengineering:slab_storage_steel'
 	}).id(`${_dys}:rftools/machine_base`)
 
-  removeRecipeByID(e, [
-    'rftoolsbase:machine_base'
+  removeRecipeByID(e, 'rftoolsbase', [
+    'machine_base'
   ])
 })

@@ -6,9 +6,8 @@ onEvent('recipes', e => {
     B: 'eidolon:polished_planks'
 	}).id(`${_dys}:farmersdelight/cutting_board`)
 
-  removeRecipeByID(e, 
-    [
-    'farmersdelight:cutting_board'
+  removeRecipeByID(e, 'farmersdelight', [
+    'cutting_board'
     ]
   )
 })

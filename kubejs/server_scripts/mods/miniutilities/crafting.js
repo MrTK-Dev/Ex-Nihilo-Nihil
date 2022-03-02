@@ -6,8 +6,8 @@ onEvent('recipes', e => {
   //   B: '#forge:ingots/redstone'
 	// }).id(`${_dys}:miniutilities/redstone_glass`)
 
-  removeRecipeByID(e, [
-    'miniutilities:redstone_glass'
+  removeRecipeByID(e, 'miniutilities', [
+    'redstone_glass'
     ]
   )
 })

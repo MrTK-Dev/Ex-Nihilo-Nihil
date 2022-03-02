@@ -8,10 +8,19 @@ onEvent('recipes', e => {
       fluid: Fluid.of('thermal:redstone', 300),
       output: 'redstonerepository:string_fluxed', //change to custom item
       energy: 4000,
-      id: `${_dys}:thermal/bottler`
+      id: 'string_fluxed'
+    },
+    {
+      input: 'mysticalagriculture:fire_agglomeratio',
+      fluid: Fluid.of('emendatusenigmatica:molten_coal', 300),
+      output: Item.of('powah:dielectric_paste', 4),
+      energy: 4000,
+      id: 'dielectric_paste'
     }
   ];
+
   recipes.forEach((recipe) => {
-      e.recipes.thermal.bottler(recipe.output, [recipe.fluid, recipe.input]).energy(recipe.energy).id(recipe.id);
+    e.recipes.thermal.bottler(recipe.output, [recipe.fluid, recipe.input])
+      .energy(recipe.energy).id(`${_dys}:thermal/bottler/${recipe.id}`);
   });
 })

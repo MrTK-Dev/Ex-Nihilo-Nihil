@@ -13,26 +13,21 @@ mputils
 resourcepacks
 saves
 valkyrielib
-XaeroWaypoints
-XaeroWorldMap
-woot
-craftpresence*
 
 #files
 .curseclient
 .ReAuth.cfg
 BotaniaVars.dat
 crafttweaker.log
-dropt.log
 knownkeys.txt
 minecraftinstance.json
 patchouli_data.json
 usercache.json
 usernamecache.json
 textures_*
-seen_buildersbag_addons.txt
-scripts/.zsrc
-scripts/nc_script_addons/DONT_PUT_YOUR_SCRIPTS_IN_HERE
+*export.json
+
+*.log
 
 #Configs
 config/AppliedEnergistics2/items.csv
@@ -40,9 +35,6 @@ config/AppliedEnergistics2/CustomRecipes*
 config/jei/bookmarks*
 config/jei/world*
 config/InvTweaks/InvTweaks.cfg
-config/brandon3055/contributors*
-config\brandon3055\ProjectIntelligence*
-config/thaumicjei_itemstack*
 config/craftpresence*
 config/splash*
 config/Guide-API/Guide-API.cfg

@@ -32,13 +32,17 @@ onEvent('recipes', e => {
     E: '#immersiveengineering:circuits/pcb'
 	}).id(`${_dys}:prettypipes/blank_module`)
 
-  removeRecipeByID(e, [
-    'prettypipes:pipe',
-    'ppfluids:fluid_pipe_to_pipe',
-    'ppfluids:fluid_pipe',
-    'prettypipes:item_terminal',
-    'prettypipes:crafting_terminal',
-    'prettypipes:blank_module'
+  removeRecipeByID(e, 'prettypipes', [
+    'pipe',
+    'item_terminal',
+    'crafting_terminal',
+    'blank_module'
+    ]
+  )
+
+  removeRecipeByID(e, 'ppfluids', [
+    'fluid_pipe_to_pipe',
+    'fluid_pipe'
     ]
   )
 })

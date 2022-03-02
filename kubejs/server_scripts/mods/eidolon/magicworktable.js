@@ -136,7 +136,7 @@ onEvent('recipes', e => {
         A: { item: 'botania:livingrock_slab' },
         B: { item: 'eidolon:lesser_soul_gem' },
         C: { item: 'mysticalagriculture:prudentium_ingot'},
-        D: { tag: '#forge:plates/silver' }
+        D: { tag: 'forge:plates/silver' }
       },
       'botania:diluted_pool'
     ]

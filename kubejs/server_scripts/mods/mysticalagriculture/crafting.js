@@ -15,9 +15,9 @@ onEvent('recipes', e => {
 
   e.shaped('matc:inferium_crystal', ['ABA', 'CDC', 'AEA'], {
 		A: 'tconstruct:earth_slime_crystal',
-    B: '63x immersiveengineering:dust_hop_graphite',
-    C: 'mysticalagriculture:inferium_gemstone',
-    D: '#appliedenergistics2:crystals/certus_quartz',
+    B: 'immersiveengineering:dust_hop_graphite',
+    C: '#forge:gems/quartz',
+    D: 'mysticalagriculture:inferium_gemstone',
     E: '#forge:dusts/emerald'
 	}).id(`${_dys}:matc/inferium_crystal`)
 
@@ -25,17 +25,21 @@ onEvent('recipes', e => {
     ['#forge:ingots/aluminum', '#forge:gems/quartz', 'mysticalagriculture:prosperity_shard', 'mysticalagriculture:prosperity_shard']
   ).id(`${_dys}:mysticalagriculture/prosperity_ingot`)
 
-  removeRecipeByID(e, [
-    'mysticalagriculture:inferium_ingot',
-    'mysticalagriculture:inferium_gemstone',  //add cool loop
-    'mysticalagriculture:prudentium_gemstone',
-    'mysticalagriculture:tertium_gemstone',
-    'mysticalagriculture:imperium_gemstone',
-    'mysticalagriculture:supremium_gemstone',
-    'mysticalagriculture:prudentium_ingot',
-    'mysticalagriculture:prosperity_ingot',
-    'mysticalagriculture:prosperity_gemstone',
-    'matc:crystals/inferium'
+  removeRecipeByID(e, 'mysticalagriculture', [
+    'inferium_ingot',
+    'inferium_gemstone',  //add cool loop
+    'prudentium_gemstone',
+    'tertium_gemstone',
+    'imperium_gemstone',
+    'supremium_gemstone',
+    'prudentium_ingot',
+    'prosperity_ingot',
+    'prosperity_gemstone'
+    ]
+  )
+
+  removeRecipeByID(e, 'matc', [
+    'crystals/inferium'
     ]
   )
 })

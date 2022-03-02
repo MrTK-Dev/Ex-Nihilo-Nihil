@@ -20,10 +20,10 @@ onEvent('recipes', e => {
     C: '#immersiveengineering:circuits/logic'
 	}).id(`${_dys}:thermal/redstone_servo`)
 
-  removeRecipeByID(e, [
-    'thermal:machine_frame',
-    'thermal:rf_coil',
-    'thermal:redstone_servo'
+  removeRecipeByID(e, 'thermal', [
+    'machine_frame',
+    'rf_coil',
+    'redstone_servo'
     ]
   )
 })

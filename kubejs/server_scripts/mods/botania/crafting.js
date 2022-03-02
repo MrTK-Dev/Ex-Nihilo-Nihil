@@ -16,11 +16,11 @@ onEvent('recipes', e => {
     C: 'botania:livingrock_slab'
 	}).id(`${_dys}:botania/petal_apothecary`)
 
-  removeRecipeByID(e, [
-    'botania:apothecary_default',
-    'botania:diluted_pool',
-    'botania:mana_pool',
-    'botania:fabulous_pool'
+  removeRecipeByID(e, 'botania', [
+    'apothecary_default',
+    'diluted_pool',
+    'mana_pool',
+    'fabulous_pool'
     ]
   )
 })

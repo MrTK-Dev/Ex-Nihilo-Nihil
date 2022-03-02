@@ -2,8 +2,8 @@
 
 onEvent('recipes', e => {
 
-  removeRecipeByID(e, [
-    'redstonerepository:string_fluxed' //change to custom item
+  removeRecipeByID(e, 'redstonerepository', [
+    'string_fluxed' //change to custom item
     ]
   )
 })

@@ -1,14 +1,6 @@
 // All crafting recipes related to Vanilla Minecraft
 
 onEvent('recipes', e => {
-  //#region functions
-  function removeByID(entries) {
-    entries.forEach(ID => {
-      e.remove({id: `minecraft:${ID}`})
-    })
-  }
-  //#endregion
-
   e.shaped('minecraft:bucket', ['A A', ' A '], {
 		A: '#forge:plates/iron'
 	}).id(`${_dys}:minecraft/bucket`)
@@ -26,9 +18,10 @@ onEvent('recipes', e => {
     D: '#minecraft:wooden_buttons'
 	}).id(`${_dys}:minecraft/chest`)
 
-  removeByID([
+  removeRecipeByID(e, 'minecraft', [
     'bucket',
     'furnace',
     'chest'
-  ])
+    ]
+  )
 })

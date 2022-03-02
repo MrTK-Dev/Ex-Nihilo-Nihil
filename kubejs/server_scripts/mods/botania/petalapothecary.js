@@ -11,12 +11,6 @@ onEvent('recipes', e => {
       }).id(`${_dys}:botania/petal_apothecary/${id}`)
     })
   }
-
-  function removePetalApo(entries) {
-    entries.forEach(recipeID => {
-      e.remove({ id: `botania:petal_apothecary/${recipeID}` })
-    })
-  }
   //#endregion
 
   addPetalApo([
@@ -34,7 +28,8 @@ onEvent('recipes', e => {
     ]
   ])
 
-  removePetalApo([
+  removeRecipeByID(e, 'botania:petal_apothecary/', [
     'pure_daisy'
-  ])
+    ]
+  )
 })

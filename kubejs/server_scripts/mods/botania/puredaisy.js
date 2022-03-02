@@ -11,29 +11,24 @@ onEvent('recipes', e => {
       }).id(`${_dys}:botania/pure_daisy/${id}`)
     })
   }
-
-  function removePureDaisy(entries) {
-    entries.forEach(recipeID => {
-      e.remove({ id: `botania:pure_daisy/${recipeID}` })
-    })
-  }
   //#endregion
 
   addPureDaisy([
     [
       'livingwood',
-      { item: 'eidolon:polished_planks'},
+      { block: 'eidolon:polished_planks'},
       'botania:livingwood'
     ],
     [
       'livingrock',
-      { tag: '#tconstruct:seared_blocks'},
+      { tag: 'tconstruct:seared_blocks'},
       'botania:livingrock'
     ]
   ])
 
-  removePureDaisy([
+  removeRecipeByID(e, 'botania:pure_daisy/', [
     'livingwood',
     'livingrock'
-  ])
+    ]
+  )
 })

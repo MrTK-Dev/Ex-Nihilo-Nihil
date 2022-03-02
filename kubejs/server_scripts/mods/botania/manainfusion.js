@@ -13,11 +13,11 @@ onEvent('recipes', e => {
     })
   }
 
-  function removeInfusion(entries) {
-    entries.forEach(recipeID => {
-      e.remove({ id: `botania:mana_infusion/${recipeID}` })
-    })
-  }
+  // function removeInfusion(entries) {
+  //   entries.forEach(recipeID => {
+  //     e.remove({ id: `botania:mana_infusion/${recipeID}` })
+  //   })
+  // }
   //#endregion
 
   addInfusion([
@@ -59,11 +59,20 @@ onEvent('recipes', e => {
     ]
   ])
 
-  removeInfusion([
+  // removeInfusion([
+  //   'manasteel',
+  //   'manasteel_block',
+  //   'mana_string',
+  //   'mana_diamond',
+  //   'mana_diamond_block'
+  // ])
+
+  removeRecipeByID(e, 'botania:mana_infusion/', [
     'manasteel',
     'manasteel_block',
     'mana_string',
     'mana_diamond',
     'mana_diamond_block'
-  ])
+    ]
+  )
 })

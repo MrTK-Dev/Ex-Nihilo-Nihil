@@ -2,8 +2,8 @@
 
 onEvent('recipes', e => {
 
-  removeRecipeByID(e, [
-    'extendedcrafting:redstone_ingot'
+  removeRecipeByID(e, 'extendedcrafting', [
+    'redstone_ingot'
     ]
   )
 })

@@ -15,9 +15,9 @@ onEvent('recipes', e => {
     D: 'immersiveengineering:electric_lantern'
 	}).id(`${_dys}:compactcrafting/projector_dish`)
 
-  removeRecipeByID(e, [
-    'compactcrafting:base',
-    'compactcrafting:projector_dish'
+  removeRecipeByID(e, 'compactcrafting', [
+    'base',
+    'projector_dish'
     ]
   )
 })

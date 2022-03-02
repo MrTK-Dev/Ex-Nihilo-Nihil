@@ -9,8 +9,8 @@ onEvent('recipes', e => {
     E: 'minecraft:observer'
 	}).id(`${_dys}:energymeter/meter`)
 
-  removeRecipeByID(e, [
-    'energymeter:meter'
+  removeRecipeByID(e, 'energymeter', [
+    'meter'
     ]
   )
 })

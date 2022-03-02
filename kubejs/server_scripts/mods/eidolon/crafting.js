@@ -13,18 +13,18 @@ onEvent('recipes', e => {
     C: '#forge:rods/treated_wood'
 	}).id(`${_dys}:eidolon/brazier`)
 
-  removeRecipeByID(e, [
-    'eidolon:pewter_blend',
-    'eidolon:worktable',
-    'eidolon:crucible',
-    'eidolon:brazier',
-    'eidolon:blast_pewter_blend',
-    'eidolon:smelt_pewter_blend',
-    'materialis:smeltery/melting/metal/pewter_blend'
+  removeRecipeByID(e, 'eidolon', [
+    'pewter_blend',
+    'worktable',
+    'crucible',
+    'brazier',
+    'blast_pewter_blend',
+    'smelt_pewter_blend'
     ]
   )
 
-  // removeRecipeByOutput(e, [
-  //   'eidolon:pewter_blend'
-  // ])
+  removeRecipeByID(e, 'materialis', [
+    'smeltery/melting/metal/pewter_blend'
+    ]
+  )
 })

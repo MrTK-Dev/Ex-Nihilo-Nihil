@@ -1,11 +1,5 @@
 // Constants used globally
 
-// let removeRecipes = (e, entries) => {
-//   entries.forEach(item => {
-//     e.remove({output: item})
-//   })
-// }
-
 let _dys = 'dys'
 
 // let removeRecipeByID = (e, recipes) => {
@@ -16,10 +10,16 @@ let _dys = 'dys'
 //   })
 // }
 
-let removeRecipeByID = (e, ids) => {
-  ids.forEach(ID => {
-      e.remove({ id: ID })  
-  })
+let removeRecipeByID = (e, pre, ids) => {
+  if (pre.endsWith('/')) {
+    ids.forEach(ID => {
+      e.remove({ id: `${pre}${ID}` })  
+    })
+  } else {
+    ids.forEach(ID => {
+      e.remove({ id: `${pre}:${ID}` })  
+    })
+  }
 }
 
 let removeRecipeByOutput = (e, outputs) => {

@@ -2,8 +2,8 @@
 
 onEvent('recipes', e => {
 
-  removeRecipeByID(e, [
-    'compactmachines:wall'
+  removeRecipeByID(e, 'compactmachines', [
+    'wall'
     ]
   )
 })

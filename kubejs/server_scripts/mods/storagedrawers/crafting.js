@@ -9,7 +9,7 @@ onEvent('recipes', e => {
     E: '#forge:gears/enderium'
 	}).id(`${_dys}:storagedrawers/controller`)
 
-  removeRecipeByID(e, [
-    'storagedrawers:controller'
+  removeRecipeByID(e, 'storagedrawers', [
+    'controller'
   ])
 })
