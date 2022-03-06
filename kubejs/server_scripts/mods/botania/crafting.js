@@ -14,7 +14,7 @@ onEvent('recipes', e => {
 		A: 'botania:diluted_pool',
 		B: '#forge:storage_blocks/slimesteel',
     C: 'botania:livingrock_slab'
-	}).id(`${_dys}:botania/petal_apothecary`)
+	}).id(`${_dys}:botania/mana_pool`)
 
   removeRecipeByID(e, 'botania', [
     'apothecary_default',

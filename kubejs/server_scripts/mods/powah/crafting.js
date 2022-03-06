@@ -13,12 +13,21 @@ onEvent('recipes', e => {
     C: 'immersiveengineering:capacitor_hv'
 	}).id(`${_dys}:powah/capacitor_basic`)
 
+  e.shaped('powah:dielectric_casing', ['ABA', 'CDC', 'ABA'], {
+		A: '#forge:plates/tin',
+    B: 'powah:dielectric_rod_horizontal',
+    C: 'powah:dielectric_rod',
+    D: 'thermal:machine_frame'
+	}).id(`${_dys}:powah/dielectric_casing`)
+
   removeRecipeByID(e, 'powah:crafting/', [
     'dielectric_paste',
     'dielectric_paste_2',
     'thermoelectric_plate',
     'capacitor_basic',
-    'capacitor_basic_tiny'
+    'capacitor_basic_tiny',
+    'dielectric_casing',
+    'energizing_orb'
     ]
   )
 })

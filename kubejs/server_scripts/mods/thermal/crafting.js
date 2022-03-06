@@ -23,7 +23,8 @@ onEvent('recipes', e => {
   removeRecipeByID(e, 'thermal', [
     'machine_frame',
     'rf_coil',
-    'redstone_servo'
+    'redstone_servo',
+    /fire_charge\w+/ // no workerino
     ]
   )
 })

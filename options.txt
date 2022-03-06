@@ -121,12 +121,9 @@ key_key.curios.open.desc:key.keyboard.g
 key_key.botania_corporea_request:key.keyboard.c
 key_key.tanknull.mode:key.keyboard.o
 key_key.astralsorcery.disable_perk_abilities:key.keyboard.v
-key_key.ftbquests.quests:key.keyboard.comma
 key_key.moreoverlays.lightoverlay.desc:key.keyboard.f7
 key_key.moreoverlays.chunkbounds.desc:key.keyboard.f9
-key_key.invtweaks_sort_player.desc:key.keyboard.backslash
-key_key.invtweaks_sort_inventory.desc:key.keyboard.grave.accent
-key_key.invtweaks_sort_either.desc:key.mouse.middle
+key_key.ftbquests.quests:key.keyboard.comma
 key_keybind.simplyjetpacks.jetpack_gui:key.keyboard.k
 key_keybind.simplyjetpacks.jetpack_engine:key.keyboard.j
 key_keybind.simplyjetpacks.jetpack_hover:key.keyboard.h
@@ -134,9 +131,15 @@ key_keybind.simplyjetpacks.jetpack_ehover:key.keyboard.unknown
 key_keybind.simplyjetpacks.jetpack_charger:key.keyboard.unknown
 key_keybind.simplyjetpacks.jetpack_throttle_increase:key.keyboard.period
 key_keybind.simplyjetpacks.jetpack_throttle_decrease:key.keyboard.comma
+key_key.invtweaks_sort_player.desc:key.keyboard.backslash
+key_key.invtweaks_sort_inventory.desc:key.keyboard.grave.accent
+key_key.invtweaks_sort_either.desc:key.mouse.middle
+key_key.nextDestination:key.keyboard.right.bracket
+key_key.prevDestination:key.keyboard.left.bracket
+key_key.openManual:key.keyboard.f1
+key_key.toastcontrol.clear:key.keyboard.j
 key_key.mekanism.mode:key.keyboard.n
 key_key.mekanism.head_mode:key.keyboard.v
-key_key.toastcontrol.clear:key.keyboard.j
 key_key.mekanism.chest_mode:key.keyboard.g
 key_key.mekanism.legs_mode:key.keyboard.j
 key_key.mekanism.feet_mode:key.keyboard.b
@@ -149,9 +152,9 @@ key_bloodmagic.keybind.cycle_holding_pos:key.keyboard.unknown
 key_bloodmagic.keybind.cycle_holding_neg:key.keyboard.unknown
 key_key.cofh.mode_change_increment:key.keyboard.v
 key_key.toggle_focus.desc:key.keyboard.tab
-key_Open sound muffler screen:key.keyboard.unknown
 key_key.tconstruct.helmet_interact:key.keyboard.z
 key_key.tconstruct.leggings_interact:key.keyboard.i
+key_Open sound muffler screen:key.keyboard.unknown
 key_key.draconicevolution.tool_config:key.keyboard.c
 key_key.draconicevolution.tool_modules:key.keyboard.c:SHIFT
 key_key.draconicevolution.toggle_flight:key.keyboard.unknown

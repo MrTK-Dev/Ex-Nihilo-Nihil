@@ -7,6 +7,12 @@ onEvent('recipes', e => {
       outputs: ['extendedcrafting:redstone_ingot'],
       energy: 6400,
       id: 'redstone_ingot'
+    },
+    {
+      inputs: ['#forge:glass', ['#forge:dusts/quartz', '#forge:gems/quartz'], 'extendedcrafting:redstone_nugget'],
+      outputs: [Item.of('miniutilities:redstone_glass', 2)],
+      energy: 4800,
+      id: 'redstone_glass'
     }
   ];
 

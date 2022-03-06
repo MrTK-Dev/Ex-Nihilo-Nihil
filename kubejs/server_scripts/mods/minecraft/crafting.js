@@ -18,10 +18,15 @@ onEvent('recipes', e => {
     D: '#minecraft:wooden_buttons'
 	}).id(`${_dys}:minecraft/chest`)
 
+  e.shaped(Item.of('minecraft:iron_bars', 16), ['AAA', 'AAA'], {
+		A: '#forge:rods/iron'
+	}).id(`${_dys}:minecraft/iron_bars`)
+
   removeRecipeByID(e, 'minecraft', [
     'bucket',
     'furnace',
-    'chest'
+    'chest',
+    'iron_bars'
     ]
   )
 })

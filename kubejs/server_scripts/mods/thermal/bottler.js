@@ -16,6 +16,13 @@ onEvent('recipes', e => {
       output: Item.of('powah:dielectric_paste', 4),
       energy: 4000,
       id: 'dielectric_paste'
+    },
+    {
+      input: '#thermal:glass/hardened',
+      fluid: Fluid.of('thermal:redstone', 100),
+      output: 'miniutilities:redstone_glass',
+      energy: 4000,
+      id: 'redstone_glass'
     }
   ];
 

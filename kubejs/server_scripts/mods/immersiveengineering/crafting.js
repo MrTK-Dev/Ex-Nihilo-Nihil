@@ -31,14 +31,32 @@ onEvent('recipes', e => {
     B: '#forge:ingots/copper',
     C: 'thermal:rf_potato',
     D: '#forge:treated_wood',
-    E: '#forge:dusts/redstone'
-	}).id(`${_dys}:immersiveengineering/conveyor_basic`)
+    E: 'immersiveengineering:coil_lv'
+	}).id(`${_dys}:immersiveengineering/capacitor_lv`)
+
+  e.shaped('immersiveengineering:capacitor_mv', ['AAA', 'BCB', 'DED'], {
+		A: '#forge:ingots/constantan',
+    B: '#forge:ingots/electrum',
+    C: '#forge:plates/lead',
+    D: 'immersiveengineering:capacitor_lv',
+    E: 'immersiveengineering:coil_mv'
+	}).id(`${_dys}:immersiveengineering/capacitor_mv`)
+
+  e.shaped('immersiveengineering:capacitor_hv', ['AAA', 'BCB', 'DED'], {
+		A: '#forge:plates/steel',
+    B: 'mysticalagriculture:inferium_ingot',
+    C: '#forge:gears/lead',
+    D: 'immersiveengineering:capacitor_mv',
+    E: 'immersiveengineering:coil_hv'
+	}).id(`${_dys}:immersiveengineering/capacitor_hv`)
 
   removeRecipeByID(e, 'immersiveengineering:crafting/', [
     'alloybrick',
     'cokebrick',
     'blastbrick',
     'conveyor_basic',
-    'capacitor_lv'
+    'capacitor_lv',
+    'capacitor_mv',
+    'capacitor_hv'
   ])
 })

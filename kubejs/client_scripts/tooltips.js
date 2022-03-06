@@ -1,6 +1,7 @@
 // Tooltips
 
 onEvent('item.tooltip', e => {
+  let tier3 = tiny
 
   const data = [
     {
@@ -22,11 +23,15 @@ onEvent('item.tooltip', e => {
 
         /powah:\w+_starter/
       ],
-      text: ['Starter tier is disabled'].red()
+      text: [Text.of('Starter tier is disabled').red()]
     },
     {
       items: ['eidolon:pewter_blend'],
-      text: ['Disabled. Use the Smeltery to alloy Pewter!'].red()
+      text: [Text.of('Disabled. Use the Smeltery to alloy Pewter!').red()]
+    },
+    { // test
+      items: [Item.of(`compactmachines:machine_${tier3}`)],
+      text: [Text.of('Disabled. Use the Smeltery to alloy Pewter!').red()]
     }
   ]
 
@@ -46,7 +51,7 @@ onEvent('item.tooltip', e => {
   machines.forEach(([tier], index) => {
     e.add(
       [Item.of(`compactmachines:machine_${tier}`)],
-      Text.of(`Tier: ${index + 1}`).aqua()
+      Text.of(`Tier: ${index + 1}`)
     )
   })
 })
