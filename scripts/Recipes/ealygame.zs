@@ -8,7 +8,6 @@
 #|=======|Additions|=======|#
 
 craftingTable.removeRecipe(<item:exnihilosequentia:porcelain_clay>);
-craftingTable.removeRecipe(<item:immersiveengineering:hammer>);
 craftingTable.removeByName("tconstruct:tables/crafting_station_from_logs");
 
 
