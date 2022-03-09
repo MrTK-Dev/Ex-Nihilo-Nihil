@@ -13,13 +13,6 @@ onEvent('recipes', e => {
     })
   }
 
-  // function removeInfusion(entries) {
-  //   entries.forEach(recipeID => {
-  //     e.remove({ id: `botania:mana_infusion/${recipeID}` })
-  //   })
-  // }
-  //#endregion
-
   addInfusion([
     [
       'manasteel_nugget',
@@ -59,14 +52,6 @@ onEvent('recipes', e => {
     ]
   ])
 
-  // removeInfusion([
-  //   'manasteel',
-  //   'manasteel_block',
-  //   'mana_string',
-  //   'mana_diamond',
-  //   'mana_diamond_block'
-  // ])
-
   removeRecipeByID(e, 'botania:mana_infusion/', [
     'manasteel',
     'manasteel_block',
@@ -75,4 +60,32 @@ onEvent('recipes', e => {
     'mana_diamond_block'
     ]
   )
+
+  const recipes = [
+    {
+      id: 'uraninite_raw_poor',
+      output: 'powah:uraninite_raw_poor',
+      input: { item:'exnihilosequentia:chunk_uranium' },
+      mana: 50000,
+      catalyst: 'botania:alchemy_catalyst'
+    }
+  ]
+
+  recipes.forEach((recipe) => {
+    let newRecipe = {
+      type: 'botania:mana_infusion',
+      input: recipe.input,
+      output: { item: recipe.output },
+      mana: recipe.mana
+    }
+
+    if (recipe.catalyst) {
+      newRecipe.catalyst = {
+        type: 'block',
+        block: recipe.catalyst
+      }
+    }
+
+    e.custom(newRecipe).id(`${_dys}:botania/mana_infusion/${recipe.id}`)
+  })
 })

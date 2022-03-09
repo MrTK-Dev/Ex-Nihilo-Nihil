@@ -50,6 +50,12 @@ onEvent('recipes', e => {
     E: 'immersiveengineering:coil_hv'
 	}).id(`${_dys}:immersiveengineering/capacitor_hv`)
 
+  e.shaped('immersiveengineering:hammer', [' AB', ' CA', 'C  '], {
+		A: '#forge:plates/invar',
+    B: '#forge:fiber_hemp',
+    C: '#forge:rods/wooden'
+	}).id(`${_dys}:immersiveengineering/hammer`)
+
   removeRecipeByID(e, 'immersiveengineering:crafting/', [
     'alloybrick',
     'cokebrick',
@@ -57,6 +63,7 @@ onEvent('recipes', e => {
     'conveyor_basic',
     'capacitor_lv',
     'capacitor_mv',
-    'capacitor_hv'
+    'capacitor_hv',
+    'hammer'
   ])
 })

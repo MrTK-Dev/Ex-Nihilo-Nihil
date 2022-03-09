@@ -21,6 +21,16 @@ onEvent('item.registry', e => {
   ]
 
   basic_items.forEach((item) => {
-    e.create(item.registry).displayName(item.display)
+    e.create(item.registry).group('KubeJS')
+  })
+
+  const infused_crystals = [
+    'Blazing',
+    'Niotic',
+    'Spirited'
+  ]
+
+  infused_crystals.forEach((crystal) => {
+    e.create(`crystal_${crystal.toLowerCase()}_infused`).displayName(`Infused ${crystal} Crystal`).glow(true).rarity('uncommon')
   })
 })

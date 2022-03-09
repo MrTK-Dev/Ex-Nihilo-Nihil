@@ -13,7 +13,7 @@ onEvent('recipes', e => {
   }
   //#endregion
 
-  addPureDaisy([
+  addPureDaisy([ //does not work
     [
       'livingwood',
       { block: 'eidolon:polished_planks'},

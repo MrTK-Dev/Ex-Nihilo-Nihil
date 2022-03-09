@@ -9,7 +9,7 @@ onEvent('recipes', e => {
         { item: 'thermal:lumium_glass' },
         { item: 'thermal:lumium_glass' },
         { item: 'powah:dielectric_casing' },
-        { item: 'powah:dielectric_rod_horizontal' }, //SUbject to change
+        { item: 'powah:dielectric_rod_horizontal' }, //Subject to change
         { item: 'powah:dielectric_rod_horizontal' },
         { item: 'powah:dielectric_rod_horizontal' }
       ],
