@@ -1,7 +1,7 @@
 // Tooltips
 
 onEvent('item.tooltip', e => {
-  let tier3 = tiny
+  let tier3 = 'tiny'
 
   const data = [
     {

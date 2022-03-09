@@ -1,0 +1,30 @@
+{
+  "display": {
+    "title": {
+      "text": "Stage 1: Farmers Delight"
+    },
+    "description": {
+      "text": "Craft a stove to cook delicous dishes!"
+    },
+    "icon": {
+      "item": "farmersdelight:stove"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "invchange": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "farmersdelight:stove"
+          }
+        ]
+      }
+    }
+  },
+  "parent": "dys:stage_0/eidolon"
+}

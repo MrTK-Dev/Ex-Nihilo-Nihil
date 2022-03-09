@@ -1,0 +1,30 @@
+{
+  "display": {
+    "title": {
+      "text": "Stage 1: Eidolon"
+    },
+    "description": {
+      "text": "Craft a pewter ingot with the smeltery!"
+    },
+    "icon": {
+      "item": "eidolon:shadow_gem"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "invchange": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:ingots/pewter"
+          }
+        ]
+      }
+    }
+  },
+  "parent": "dys:stage_0/tconstruct"
+}

@@ -1,14 +1,26 @@
 // priority: 0
 
 onEvent('item.registry', e => { 
-  let item_basic = (registry, display) => {
-    e.create(registry).displayName(display)
-  }
+  const basic_items = [
+    {
+      registry: 'modularium_ingot',
+      display: 'Modularium Ingot'
+    },
+    {
+      registry: 'screen',
+      display: 'Screen'
+    },
+    {
+      registry: 'heatproof_brick',
+      display: 'Heatproof Brick'
+    },
+    {
+      registry: 'string_fluxed',
+      display: 'Fluxed String'
+    }
+  ]
 
-  //Modularium Ingots are the main ingredient for custom multiblocks
-  item_basic('modularium_ingot', 'Modularium Ingot')
-  //
-  item_basic('screen', 'Screen')
-  //
-  item_basic('heatproof_brick', 'Heatproof Brick')
+  basic_items.forEach((item) => {
+    e.create(item.registry).displayName(item.display)
+  })
 })

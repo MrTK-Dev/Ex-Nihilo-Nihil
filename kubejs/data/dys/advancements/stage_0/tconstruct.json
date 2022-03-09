@@ -1,0 +1,30 @@
+{
+  "display": {
+    "title": {
+      "text": "Stage 0: Tinkers Construct"
+    },
+    "description": {
+      "text": "Find a boomerang"
+    },
+    "icon": {
+      "item": "tconstruct:smeltery_controller"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "invchange": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "tconstruct:smeltery_controller"
+          }
+        ]
+      }
+    }
+  },
+  "parent": "dys:stage_0/exnihilo"
+}

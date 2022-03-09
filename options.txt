@@ -114,13 +114,13 @@ key_placebo.toggleWings:key.keyboard.keypad.8
 key_placebo.toggleTrails:key.keyboard.keypad.9
 key_Show recipe book in crafting grid toggle.:key.keyboard.tab
 key_key.dankstorage.construction:key.keyboard.i
-key_key.solpotato.open_food_book:key.keyboard.unknown
 key_key.industrialforegoing.backpack.desc:key.keyboard.unknown
+key_key.astralsorcery.disable_perk_abilities:key.keyboard.v
+key_key.solpotato.open_food_book:key.keyboard.unknown
 key_key.solpotato.open_food_book:key.keyboard.unknown
 key_key.curios.open.desc:key.keyboard.g
 key_key.botania_corporea_request:key.keyboard.c
 key_key.tanknull.mode:key.keyboard.o
-key_key.astralsorcery.disable_perk_abilities:key.keyboard.v
 key_key.moreoverlays.lightoverlay.desc:key.keyboard.f7
 key_key.moreoverlays.chunkbounds.desc:key.keyboard.f9
 key_key.ftbquests.quests:key.keyboard.comma

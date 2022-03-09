@@ -1,0 +1,30 @@
+{
+  "display": {
+    "title": {
+      "text": "Stage 0: Ex Nihilo"
+    },
+    "description": {
+      "text": "Find a boomerang"
+    },
+    "icon": {
+      "item": "exnihilosequentia:sieve"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "invchange": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "exnihilosequentia:sieves"
+          }
+        ]
+      }
+    }
+  },
+  "parent": "dys:root"
+}

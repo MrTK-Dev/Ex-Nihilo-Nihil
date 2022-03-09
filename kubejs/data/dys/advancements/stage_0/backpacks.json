@@ -1,0 +1,30 @@
+{
+  "display": {
+    "title": {
+      "text": "Stage 0: Sophisticated Backpacks"
+    },
+    "description": {
+      "text": "Craft a backpack to transport all your new tools!"
+    },
+    "icon": {
+      "item": "sophisticatedbackpacks:backpack"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "invchange": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "sophisticatedbackpacks:backpack"
+          }
+        ]
+      }
+    }
+  },
+  "parent": "dys:stage_0/tconstruct"
+}

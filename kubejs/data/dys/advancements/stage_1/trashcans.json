@@ -1,0 +1,30 @@
+{
+  "display": {
+    "title": {
+      "text": "Stage 1: Trashcans"
+    },
+    "description": {
+      "text": "Craft a trashcan to throw away your junk!"
+    },
+    "icon": {
+      "item": "trashcans:item_trash_can"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "invchange": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "trashcans:item_trash_can"
+          }
+        ]
+      }
+    }
+  },
+  "parent": "dys:stage_0/eidolon"
+}

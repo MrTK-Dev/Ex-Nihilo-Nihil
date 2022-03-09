@@ -6,7 +6,7 @@ onEvent('recipes', e => {
     {
       input: 'minecraft:string',
       fluid: Fluid.of('thermal:redstone', 300),
-      output: 'redstonerepository:string_fluxed', //change to custom item
+      output: 'kubejs:string_fluxed',
       energy: 4000,
       id: 'string_fluxed'
     },

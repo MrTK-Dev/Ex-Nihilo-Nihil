@@ -1,0 +1,30 @@
+{
+  "display": {
+    "title": {
+      "text": "Stage 1: Immersive Engineering"
+    },
+    "description": {
+      "text": "Craft a hammer to be able to form powerful multiblocks!"
+    },
+    "icon": {
+      "item": "immersiveengineering:hammer"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "invchange": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "immersiveengineering:hammer"
+          }
+        ]
+      }
+    }
+  },
+  "parent": "dys:stage_0/tconstruct"
+}

@@ -760,13 +760,84 @@
 		}
 		{
 			x: -1.5d
-			y: -6.5d
+			y: -7.5d
 			dependencies: ["1FA11A6A02607D07"]
 			id: "5B3ACCAA866F5349"
 			tasks: [{
 				id: "37757849B5E50FF2"
 				type: "item"
 				item: "storagedrawers:controller"
+			}]
+		}
+		{
+			title: "The End?"
+			x: -0.5d
+			y: -6.5d
+			dependencies: ["7AB5D81E137C7D83"]
+			id: "523CD1082D64E73A"
+			tasks: [{
+				id: "2AC06D330992C459"
+				type: "item"
+				item: "exnihilosequentia:end_cake"
+			}]
+		}
+		{
+			title: "Tier 1 Rocket: Moon"
+			x: 1.0d
+			y: -7.5d
+			dependencies: ["0E84E636AE26AC96"]
+			id: "3B2B22AF4491E82E"
+			tasks: [{
+				id: "127CCA7FCA5F1985"
+				type: "item"
+				item: {
+					id: "boss_tools:rocket_t1"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -6.5d
+			dependencies: ["0A6AD6357C7582CF"]
+			id: "5F1FE6842DC98E0D"
+			tasks: [{
+				id: "35DCAD82A10C9100"
+				type: "item"
+				item: "clickmachine:auto_clicker"
+			}]
+		}
+		{
+			title: "Tier 2 Rocket: Mars"
+			x: 3.5d
+			y: -7.5d
+			dependencies: ["5D53394B1A27A592"]
+			id: "7F8AF804EC1CC0AF"
+			tasks: [{
+				id: "52263BFD35D3D170"
+				type: "item"
+				item: {
+					id: "boss_tools:rocket_t2"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Tier 3 Rocket: Mercury and Venus"
+			x: 6.0d
+			y: -7.5d
+			dependencies: ["1726903C8FD1BF41"]
+			id: "7705501D884FDD97"
+			tasks: [{
+				id: "348B6A2D757A5231"
+				type: "item"
+				item: {
+					id: "boss_tools:rocket_t3"
+					Count: 1b
+					tag: { }
+				}
 			}]
 		}
 	]

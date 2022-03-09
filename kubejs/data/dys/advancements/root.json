@@ -1,0 +1,23 @@
+{
+	"display": {
+		"title": {
+			"text": "DoYouSkyblock!?"
+		},
+		"description": {
+			"text": "Start your adventure!"
+		},
+		"icon": {
+			"item": "minecraft:clay_ball"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false,
+		"background": "astralsorcery:textures/block/black_marble_arch.png"
+	},
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location"
+    }
+  }
+}

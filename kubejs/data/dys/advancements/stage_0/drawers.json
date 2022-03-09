@@ -1,0 +1,30 @@
+{
+  "display": {
+    "title": {
+      "text": "Stage 0: Storage Drawers"
+    },
+    "description": {
+      "text": "Craft a drawer to hold a ton of items!"
+    },
+    "icon": {
+      "item": "storagedrawers:oak_full_drawers_1"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "invchange": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "storagedrawers:drawers"
+          }
+        ]
+      }
+    }
+  },
+  "parent": "dys:stage_0/tconstruct"
+}

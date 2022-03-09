@@ -41,7 +41,7 @@ onEvent('recipes', e => {
     ],
     [
       'mana_string',
-      { item: 'redstonerepository:string_fluxed' },
+      { item: 'kubejs:string_fluxed' },
       'botania:mana_string',
       5000
     ],
