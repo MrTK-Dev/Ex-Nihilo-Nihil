@@ -48,7 +48,7 @@ onEvent('item.tooltip', e => {
     'maximum'
   ]
 
-  machines.forEach(([tier], index) => {
+  machines.forEach((tier, index) => {
     e.add(
       [Item.of(`compactmachines:machine_${tier}`)],
       Text.of(`Tier: ${index + 1}`)

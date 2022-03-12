@@ -20,6 +20,27 @@ onEvent('recipes', e => {
     D: 'thermal:machine_frame'
 	}).id(`${_dys}:powah/dielectric_casing`)
 
+  e.shaped(Item.of('powah:crystal_blazing', 4), ['AAA', 'ABA', 'AAA'], {
+		A: 'betterendforge:crystal_shards',
+    B: 'tconstruct:blazing_blood_bucket'
+	}).id(`${_dys}:powah/crystal_blazing`)
+
+  e.shaped(Item.of('powah:crystal_niotic', 4), ['AAA', 'ABA', 'AAA'], {
+		A: 'betterendforge:crystal_shards',
+    B: '#forge:buckets/diamond'
+	}).id(`${_dys}:powah/crystal_niotic`)
+
+  e.shaped(Item.of('powah:crystal_spirited', 4), ['AAA', 'ABA', 'AAA'], {
+		A: 'betterendforge:crystal_shards',
+    B: '#forge:buckets/emerald'
+	}).id(`${_dys}:powah/crystal_spirited`)
+
+  e.shaped('powah:capacitor_hardened', ['ABA', 'BCB', 'ABA'], {
+		A: 'powah:dielectric_paste',
+    B: 'powah:steel_energized',
+    C: 'powah:capacitor_basic'
+	}).id(`${_dys}:powah/capacitor_hardened`)
+
   removeRecipeByID(e, 'powah:crafting/', [
     'dielectric_paste',
     'dielectric_paste_2',
@@ -27,7 +48,8 @@ onEvent('recipes', e => {
     'capacitor_basic',
     'capacitor_basic_tiny',
     'dielectric_casing',
-    'energizing_orb'
+    'energizing_orb',
+    'capacitor_hardened'
     ]
   )
 })

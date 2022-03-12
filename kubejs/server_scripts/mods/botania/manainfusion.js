@@ -63,10 +63,10 @@ onEvent('recipes', e => {
 
   const recipes = [
     {
-      id: 'uraninite_raw_poor',
+      //id: 'uraninite_raw_poor',
       output: 'powah:uraninite_raw_poor',
       input: { item:'exnihilosequentia:chunk_uranium' },
-      mana: 50000,
+      mana: 10000,
       catalyst: 'botania:alchemy_catalyst'
     }
   ]
@@ -86,6 +86,12 @@ onEvent('recipes', e => {
       }
     }
 
-    e.custom(newRecipe).id(`${_dys}:botania/mana_infusion/${recipe.id}`)
+    if (recipe.id) {
+      newRecipe.id = (`${_dys}:botania/mana_infusion/${recipe.id}`)
+    } else {
+      newRecipe.id = (`${_dys}:botania/mana_infusion/${recipe.output.split(':')[1]}`)
+    }
+
+    e.custom(newRecipe)
   })
 })

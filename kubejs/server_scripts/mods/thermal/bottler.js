@@ -23,6 +23,27 @@ onEvent('recipes', e => {
       output: 'miniutilities:redstone_glass',
       energy: 4000,
       id: 'redstone_glass'
+    },
+    {
+      input: Item.of('betterendforge:crystal_shards', 2),
+      fluid: Fluid.of('tconstruct:blazing_blood', 250),
+      output: 'powah:crystal_blazing',
+      energy: 6000,
+      id: 'crystal_blazing'
+    },
+    {
+      input: Item.of('betterendforge:crystal_shards', 2),
+      fluid: Fluid.of('emendatusenigmatica:molten_diamond', 250),
+      output: 'powah:crystal_niotic',
+      energy: 6000,
+      id: 'crystal_niotic'
+    },
+    {
+      input: Item.of('betterendforge:crystal_shards', 2),
+      fluid: Fluid.of('emendatusenigmatica:molten_emerald', 250),
+      output: 'powah:crystal_spirited',
+      energy: 6000,
+      id: 'crystal_spirited'
     }
   ];
 

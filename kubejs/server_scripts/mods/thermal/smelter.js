@@ -13,6 +13,12 @@ onEvent('recipes', e => {
       outputs: [Item.of('miniutilities:redstone_glass', 2)],
       energy: 4800,
       id: 'redstone_glass'
+    },
+    {
+      inputs: ['mysticalagriculture:prudentium_ingot', Item.of('botania:manasteel_ingot', 2), Item.of('mysticalagriculture:tertium_essence', 4)],
+      outputs: ['mysticalagriculture:tertium_ingot'],
+      energy: 6400,
+      id: 'tertium_ingot'
     }
   ];
 

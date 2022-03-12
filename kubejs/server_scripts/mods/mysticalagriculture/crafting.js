@@ -21,9 +21,15 @@ onEvent('recipes', e => {
     E: '#forge:dusts/emerald'
 	}).id(`${_dys}:matc/inferium_crystal`)
 
-  e.shapeless('mysticalagriculture:prosperity_ingot',
-    ['#forge:ingots/aluminum', '#forge:gems/quartz', 'mysticalagriculture:prosperity_shard', 'mysticalagriculture:prosperity_shard']
-  ).id(`${_dys}:mysticalagriculture/prosperity_ingot`)
+  e.shaped('mysticalagriculture:prosperity_ingot', [' A ', 'BCB', ' A '], {
+		A: '#forge:gems/quartz',
+    B: 'mysticalagriculture:prosperity_shard',
+    C: '#forge:ingots/aluminum'
+	}).id(`${_dys}:matc/prosperity_ingot`)
+
+  // e.shapeless('mysticalagriculture:prosperity_ingot',
+  //   ['#forge:ingots/aluminum', '#forge:gems/quartz', 'mysticalagriculture:prosperity_shard', 'mysticalagriculture:prosperity_shard']
+  // ).id(`${_dys}:mysticalagriculture/prosperity_ingot`)
 
   removeRecipeByID(e, 'mysticalagriculture', [
     'inferium_ingot',
@@ -34,7 +40,8 @@ onEvent('recipes', e => {
     'supremium_gemstone',
     'prudentium_ingot',
     'prosperity_ingot',
-    'prosperity_gemstone'
+    'prosperity_gemstone',
+    'tertium_ingot'
     ]
   )
 
