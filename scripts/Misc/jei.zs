@@ -1,4 +1,4 @@
 
-import mods.jei.JEI;
+//import mods.jei.JEI;
 
-JEI.hideRegex(".*facade.*");
+//JEI.hideRegex(".*facade.*");
